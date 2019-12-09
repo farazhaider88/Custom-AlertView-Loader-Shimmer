@@ -1,0 +1,28 @@
+PODS:
+  - DGActivityIndicatorView (2.1.1)
+  - DynamicBlurView (4.0.0)
+  - ListPlaceholder (1.4)
+  - PopupDialog (1.1.1):
+    - DynamicBlurView (~> 4.0)
+
+DEPENDENCIES:
+  - DGActivityIndicatorView (~> 2.1.1)
+  - ListPlaceholder
+  - PopupDialog (~> 1.1)
+
+SPEC REPOS:
+  trunk:
+    - DGActivityIndicatorView
+    - DynamicBlurView
+    - ListPlaceholder
+    - PopupDialog
+
+SPEC CHECKSUMS:
+  DGActivityIndicatorView: ff2c76073d79692f724863c8dd38685866a03cb6
+  DynamicBlurView: ccf9acd2b20c883cc2c72e3524a04d8d3ee20533
+  ListPlaceholder: 08ddaddf67520a20fc52cf37160fb56aa64d071d
+  PopupDialog: 720c92befd8bc23c13442254945213db5612f149
+
+PODFILE CHECKSUM: 0377ac0197d9855dcdbbe8ad490dfe94b1a54ed9
+
+COCOAPODS: 1.8.4

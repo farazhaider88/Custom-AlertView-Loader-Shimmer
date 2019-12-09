@@ -1,0 +1,1955 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00620E71264E0E954D667CEAD6BD0E99 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6249D0DEDE09097FCB7FFE25FCBD3B7 /* UIKit.framework */; };
+		018D33AF924BB2D59C32B877FFDEFA9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C277DDAFE68A195EDF8E21573219773 /* Foundation.framework */; };
+		030FCBCF4FD8CD3905C39EDA654D29BD /* PopupDialogDefaultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303309F1C0D86FC6E07A16F5A20B415F /* PopupDialogDefaultViewController.swift */; };
+		057D56AEC76E116E7DFDFDE80CDAE52F /* Pods-EtisalatRevamp-EtisalatRevampUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 98ECDEECC530B8D11781966A029FB1E9 /* Pods-EtisalatRevamp-EtisalatRevampUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		080B54E5744B0174F1D3199A7F7124A1 /* DGActivityIndicatorBallPulseSyncAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = C99C3EC844A5BF747C884169D6FF6B39 /* DGActivityIndicatorBallPulseSyncAnimation.m */; };
+		08452A247B58228DFFC77D7BA30DD668 /* DynamicBlurView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A3979FF7CE02E9A093236CDE35960BA /* DynamicBlurView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7121CD03BA1B7337C3B361EBD84C91 /* DGActivityIndicatorDoubleBounceAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = C7BEAD1DF42714422E08AB7B8AEEA791 /* DGActivityIndicatorDoubleBounceAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EEBA2190B9DC44DE5737CED55177CA5 /* DGActivityIndicatorBallClipRotateAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = A946319A177C66410833F1A66087DE13 /* DGActivityIndicatorBallClipRotateAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F82656B116745EE31DB985B8096CD60 /* UIImageView+Calculations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A02817A1EFEE6BF694F65332B3B554 /* UIImageView+Calculations.swift */; };
+		13AA2E6CC6CB3E397F70FCF47D25FCA5 /* DGActivityIndicatorBallZigZagAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = AF7FFF52CD761C6A279FB7C9CCE5FE12 /* DGActivityIndicatorBallZigZagAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15D5F66290B5BEFB45A25EC228AC26A5 /* DGActivityIndicatorLineScaleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FA01D50FFCD6E785815378B0DAEB456 /* DGActivityIndicatorLineScaleAnimation.m */; };
+		169D250E01A497F88370028FD950A37C /* TransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F7E920A716CF56A4FC38ED57CE67EB /* TransitionAnimator.swift */; };
+		18643D4F9BC327B1E5B9175F4260AC0E /* DynamicBlurView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B8D6211A44D9FA8DFAD86C493181942A /* DynamicBlurView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C14E028D177632DF0B363082E85E536 /* CGImage+Accelerate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCD0050B4C550D5C7E5A86CC175823E /* CGImage+Accelerate.swift */; };
+		1CFB7622BF2640A7D0FAA5B582658008 /* DGActivityIndicatorCookieTerminatorAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = A598983CF53762F5F85B919AD2408E56 /* DGActivityIndicatorCookieTerminatorAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FF4098260C3AB5CB23F5B421C16F5C4 /* DGActivityIndicatorTripleRingsAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8272D2A80CCC364922D189CA6AF43068 /* DGActivityIndicatorTripleRingsAnimation.m */; };
+		225555187BFD67F7F6DADEA6C73C567F /* PopupDialogContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F35219AF9D5243457E158F1D806DD2 /* PopupDialogContainerView.swift */; };
+		240194F38631B1DCD7B6FA24FCDDF37A /* DGActivityIndicatorBallGridBeatAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F44A2575C9974D372847267C7122D8E /* DGActivityIndicatorBallGridBeatAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B9E076D75419907EBA81695A91228EC /* DGActivityIndicatorBallPulseAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F2983A4D7DD55D6CA6DD000A169CA7B /* DGActivityIndicatorBallPulseAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2ED034DC5E53FBDB4C927E5AA1FE488F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6249D0DEDE09097FCB7FFE25FCBD3B7 /* UIKit.framework */; };
+		2F4976FB9B958DC4ADEF9FD818BF5665 /* Pods-EtisalatRevampTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 015C10CB234E34B40E5256D110ACE68D /* Pods-EtisalatRevampTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FF82C82CA054F12CBE480EE4E633E5E /* DGActivityIndicatorBallClipRotateMultipleAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E42EFA76080F4DF15B42BD191EEC43C /* DGActivityIndicatorBallClipRotateMultipleAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3019C80AC99A7B7FE54F4D590F5A0D78 /* DGActivityIndicatorBallScaleRippleMultipleAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = CA97B96216FE74CC0870D00CC6B65B8E /* DGActivityIndicatorBallScaleRippleMultipleAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3147C15E2C41335037D8565D41427EB1 /* DGActivityIndicatorLineScalePulseOutRapidAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 748941301A086987FC23AB9BAADEBFAD /* DGActivityIndicatorLineScalePulseOutRapidAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35E5A0598DC93DE3F6EC6210376E0F50 /* DGActivityIndicatorTwoDotsAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1630C06C8DAACE1DD682B22EED478261 /* DGActivityIndicatorTwoDotsAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37AFD441D3948E62ABBFFBDC662F6DB6 /* UIView+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFD401A7135CFD14BCA770AF0E0C210 /* UIView+Animations.swift */; };
+		39F4868AC5A6EDB3A2BB097788684AB5 /* DGActivityIndicatorLineScalePartyAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB9285FC99959A753C1305CB9A37A9A /* DGActivityIndicatorLineScalePartyAnimation.m */; };
+		3AEFFABDD95DEF0D98A88A1D8D3FA25B /* DGActivityIndicatorBallClipRotateAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC5EA35E3D6D9DCCD495A76324974B1 /* DGActivityIndicatorBallClipRotateAnimation.m */; };
+		405DB302A501BC2D4164DAE68748B526 /* DGActivityIndicatorView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4738B157CA778456084DB507F1A3713 /* DGActivityIndicatorView-dummy.m */; };
+		42414824559FA605DF0EDCD382366DBD /* DynamicBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B38C2AEDB81A22E55AF767D664B02BD /* DynamicBlurView.swift */; };
+		4275AD9D2A19609FD52766414C64A3A3 /* DGActivityIndicatorBallScaleMultipleAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = EEFA3260641FBDC72E5D5F6C33BB78AE /* DGActivityIndicatorBallScaleMultipleAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45CE25317FD66D65616B0D3E90D317A2 /* DGActivityIndicatorRotatingTrigonAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = FA24F1FB68CDFF94B58083D96EBEB474 /* DGActivityIndicatorRotatingTrigonAnimation.m */; };
+		461D80FA3F96A861243CC8E288CA884B /* DGActivityIndicatorBallZigZagDeflectAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAF7416B1401F6FEAAC2BA4F8077755 /* DGActivityIndicatorBallZigZagDeflectAnimation.m */; };
+		47AF9DD7935C130E215A7E898FF58A51 /* Pods-EtisalatRevamp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9C7D6D3A3B8EC1755BF2CA7E071810 /* Pods-EtisalatRevamp-dummy.m */; };
+		491636048092DC641DD818A9B6AD8C1E /* DGActivityIndicatorThreeDotsAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 974FC39721D14645E50C60E6FFFC37D2 /* DGActivityIndicatorThreeDotsAnimation.m */; };
+		49591FB5BF6C20C3A86DEC07960788FC /* DGActivityIndicatorFiveDotsAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = B31C3DBAA4D7DD42AFD34A5C20ACCBAC /* DGActivityIndicatorFiveDotsAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C6E460A6B911AFFD987F78AC59B7466 /* DynamicBlurView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48605496EA7A8E9439C53C0835B30AC5 /* DynamicBlurView.framework */; };
+		4E0E066DC506A0507731696355497656 /* DGActivityIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = B55E9AF26D2282098ABD3999E2AD16BE /* DGActivityIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F31EA23AD573BF6830C85C4D8F2E21E /* DGActivityIndicatorBallClipRotatePulseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 319B0D10637C789B3A2D73E0FDE70026 /* DGActivityIndicatorBallClipRotatePulseAnimation.m */; };
+		50A244F623C093DB4267A3CE933F197D /* DGActivityIndicatorNineDotsAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = A72B416307729DF915379A46CBC3A675 /* DGActivityIndicatorNineDotsAnimation.m */; };
+		5468A39E95F3631B96983DA3D5FB9603 /* DGActivityIndicatorBallSpinFadeLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 725E6D8F66B6B4253D89C6C85AF2521C /* DGActivityIndicatorBallSpinFadeLoader.m */; };
+		5546955AFBE8D354D17380A294A25CE6 /* PopupDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566B6EE2449AB03E83EDCE8DEFF90EE3 /* PopupDialog.swift */; };
+		56D2B4E07AC8A1888FE9012115A08056 /* DGActivityIndicatorTripleRingsAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = EABEA4A445BEF8CBA3685A6D96B930BF /* DGActivityIndicatorTripleRingsAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D1085C9BEAB4541707E7FAD2D0059DD /* DGActivityIndicatorBallRotateAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 855DD592C750F3172873AF8884E9BF51 /* DGActivityIndicatorBallRotateAnimation.m */; };
+		6029D1B75879B3475DB96B3A5AC6FF02 /* DGActivityIndicatorTriangleSkewSpinAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FF77600E6345BCD330628EB0F592F89 /* DGActivityIndicatorTriangleSkewSpinAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		609C4EA6870A149819AC2E10A69AFD2A /* DGActivityIndicatorBallScaleRippleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B29B3A2649AC6E6D9D5F6C2828F0F54 /* DGActivityIndicatorBallScaleRippleAnimation.m */; };
+		629E39C3008F2C553E128B21AD0C682F /* DGActivityIndicatorTriplePulseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = AB838556A4ED46723D0C976D7A2AA12E /* DGActivityIndicatorTriplePulseAnimation.m */; };
+		653D8569D423D9E6BA1F35334CE9624B /* DGActivityIndicatorRotatingSandglassAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 80C665400E3A53B933680CB2A994E00B /* DGActivityIndicatorRotatingSandglassAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		656A1C4D579DDCC2108DB676318AED37 /* DGActivityIndicatorTwoDotsAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4E08686A44AC4F0B8CE2B6C374F791 /* DGActivityIndicatorTwoDotsAnimation.m */; };
+		66E5852987C24C25A8298CD271331A37 /* DGActivityIndicatorTriplePulseAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 83D98C3B215F82DEB4A48ACB4BC0A8F1 /* DGActivityIndicatorTriplePulseAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		688B66F55B013D46302003699CCABFB4 /* DGActivityIndicatorBallBeatAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5890C70914A924CF06DE4B3C6FE7A3DC /* DGActivityIndicatorBallBeatAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DEB8D6E5BBA828CFE8BCBD84C2F5486 /* Pods-EtisalatRevamp-EtisalatRevampUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 353629EDB10989E8948FD1FDFD2991F3 /* Pods-EtisalatRevamp-EtisalatRevampUITests-dummy.m */; };
+		714E33F87CB36C503B4AA05AE3AF4916 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C277DDAFE68A195EDF8E21573219773 /* Foundation.framework */; };
+		71A8F9BB931FDF0AFDBDF93CA17FC2FA /* DGActivityIndicatorFiveDotsAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1277396D6B6B58EC7FD887E251B20CAD /* DGActivityIndicatorFiveDotsAnimation.m */; };
+		73D0683E05F3565AE7175088B7CE6DC0 /* PopupDialog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D72B61D4A3F93E35F6115DEDBE0A618 /* PopupDialog-dummy.m */; };
+		73F6D88B3689FA9F381B8C1D0E2C8E04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C277DDAFE68A195EDF8E21573219773 /* Foundation.framework */; };
+		7581DC03E7CCF8E31A002CC9A7A6F6DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C277DDAFE68A195EDF8E21573219773 /* Foundation.framework */; };
+		77506AADC8250A7980009DE74388BFD9 /* DGActivityIndicatorCookieTerminatorAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4574100FCC64FDE73F9B43C486070AB1 /* DGActivityIndicatorCookieTerminatorAnimation.m */; };
+		7A009CFEBD7D09FB5DA532F54EB9FBEF /* TransitionAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FA61841A4B9314FB068FD921D074D6 /* TransitionAnimations.swift */; };
+		7EBE128BBA4CC34DBF4853B1E747C724 /* DynamicBlurView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73739B74808628AEF4870C3AD6FD4959 /* DynamicBlurView-dummy.m */; };
+		81156AE99DEF656F29B13B8176CDC3B5 /* CGContext+CGImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08885368AB3EA1B690742913F042EE5F /* CGContext+CGImage.swift */; };
+		83B9E5412A63412A151E0092BF6AF7CA /* PresentationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CB335094C29042F895220AF24DD93C /* PresentationManager.swift */; };
+		8DA68547EC36ED871BA6A20C8009B695 /* ListLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BAC2F920A310DFB5619D80B4B6A4E7 /* ListLoader.swift */; };
+		8DC394EDB127AF42164E9FC800D86FE2 /* DGActivityIndicatorLineScalePulseOutRapidAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B038C101BD2FE94066FA8736F53A0C9B /* DGActivityIndicatorLineScalePulseOutRapidAnimation.m */; };
+		91D665EAC5E88080B55620B121EAC82C /* DGActivityIndicatorBallScaleMultipleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FAED8507D7F8095DEB1AA8E4054E3DA /* DGActivityIndicatorBallScaleMultipleAnimation.m */; };
+		928FFA6E7256231E743768EBC78E36A7 /* PopupDialog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8E9421C7FDA7C082D44E77BB1C7AEA9 /* PopupDialog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95F04915359C7F787932293DD54D137D /* DGActivityIndicatorLineScalePulseOutAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 389CE2036A91C860779B90F7FE39C221 /* DGActivityIndicatorLineScalePulseOutAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99E6ECF10D7B19921282E6D8069881B7 /* DGActivityIndicatorLineScalePulseOutAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E644F05950D73A92BA99E2C7920F54E /* DGActivityIndicatorLineScalePulseOutAnimation.m */; };
+		9B11DEDC917D4C3DEDA8B6B5464785B2 /* DGActivityIndicatorBallRotateAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 90494CEF1645D653B83561BD7B1CA964 /* DGActivityIndicatorBallRotateAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B45F788C4CE05D2DC0686432FB0EE22 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 698C7792749D8F8A29699C4E3B5CA919 /* Accelerate.framework */; };
+		9D81B1D72E008BBFC7710ADD55F1A145 /* DGActivityIndicatorRotatingSandglassAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 701114974B02BD394EA594D8E8A75503 /* DGActivityIndicatorRotatingSandglassAnimation.m */; };
+		A141926D6C9625E46B0094A7C8EBCDE9 /* Pods-EtisalatRevamp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F3F1B790504985F57759436F12FE1B7 /* Pods-EtisalatRevamp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1A2BBB0E3A76E5019D18D1295ADAB84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C277DDAFE68A195EDF8E21573219773 /* Foundation.framework */; };
+		A254857FE369E684CBE3B4F6F292239D /* PopupDialogDefaultButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D1FDD87A2925CAEFCEE36BF77F32AC /* PopupDialogDefaultButtons.swift */; };
+		A8823309153D085D0B279E30BFBB9518 /* DGActivityIndicatorLineScalePartyAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 99710E9523F135836CC9389D194FC46D /* DGActivityIndicatorLineScalePartyAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A94100505467526DB734FAB115BF715C /* PopupDialogOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0543AA5BB3B37E01EB0A3935DFD78727 /* PopupDialogOverlayView.swift */; };
+		AAA12832361951F05DCCD7ACA0C0A005 /* DGActivityIndicatorBallZigZagAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B3D10B45321F0EE88209E17DE820D4 /* DGActivityIndicatorBallZigZagAnimation.m */; };
+		ABC7697A6C738682696C44B2F27ACD76 /* DGActivityIndicatorBallScaleAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = E05A815B6C10DCCEB8078E780E68D72A /* DGActivityIndicatorBallScaleAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B18FE5EE478D75593AE4D0C6B1E6506F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C277DDAFE68A195EDF8E21573219773 /* Foundation.framework */; };
+		B1F7E8D48515A2A0C7C7D1D5B7B1D3A0 /* DGActivityIndicatorTriangleSkewSpinAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = DF11BBB6046E16F2068FE80AE08D220A /* DGActivityIndicatorTriangleSkewSpinAnimation.m */; };
+		B2F489FB022F836FB35B3FEABF68903C /* PopupDialog+Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D620FBAAAEB944DEEE47EB00A6A8D2 /* PopupDialog+Keyboard.swift */; };
+		B3D790DF4667129E5588F8AB1D5EC800 /* DGActivityIndicatorBallScaleRippleMultipleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8011056F2985387DFBCDA1AB01137E /* DGActivityIndicatorBallScaleRippleMultipleAnimation.m */; };
+		B3F068CE45C3084A9B86A8AFFA7D67CC /* DGActivityIndicatorBallSpinFadeLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = CA909CB8B7B4325BAC175A9330A291AE /* DGActivityIndicatorBallSpinFadeLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B52BCD660C0CA96651CA9AEAB5672D7B /* CaptureQuality.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AA47C04A193E2591580BCE41669AA2 /* CaptureQuality.swift */; };
+		B8C08E82E503F12848B6007A1CB6F2BA /* DGActivityIndicatorAnimationProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CB578D0D11216B75A99E0835B5BCD6E /* DGActivityIndicatorAnimationProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA4A2C57A8E10CA2E55BFFB108CDEE05 /* DGActivityIndicatorThreeDotsAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = FFD71C739BB16F5FD2A04D7867750B91 /* DGActivityIndicatorThreeDotsAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C03BDBB15AB4E70408E91E8C650CADFB /* DGActivityIndicatorBallClipRotateMultipleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0898970B64E589D79761E874BA6DEE77 /* DGActivityIndicatorBallClipRotateMultipleAnimation.m */; };
+		C08A03032406A24E285B680ACE7A9E73 /* TrackingMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF69B4816553E313334B1752B961672 /* TrackingMode.swift */; };
+		C15FBDCB6CAA24181AADB8312C21A5BE /* DGActivityIndicatorBallGridPulseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9F8BD4453C556BD7AB87608B4FA116 /* DGActivityIndicatorBallGridPulseAnimation.m */; };
+		C72D1CFE4FA824B591A77366C1B84BD5 /* DGActivityIndicatorBallGridBeatAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 095C5F2C8731C2FAEC7BF4A2AEDE526D /* DGActivityIndicatorBallGridBeatAnimation.m */; };
+		C87ECE19491E48BA766EEAFF5CC93D20 /* DGActivityIndicatorBallGridPulseAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2445D818CF910CA5EAD32C71B565CE99 /* DGActivityIndicatorBallGridPulseAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C99BB0472E3A5821823994AB14089121 /* DGActivityIndicatorDoubleBounceAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D9D343154BABDB2F4602FA28283B23 /* DGActivityIndicatorDoubleBounceAnimation.m */; };
+		C9D87D93855954B4B23CDB647DEB7D0E /* PopupDialogDefaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777695511D29BD4A5E1001E51F15529D /* PopupDialogDefaultView.swift */; };
+		CB9197D9D664CDC4F60D59D3B7A1E541 /* DGActivityIndicatorBallScaleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = CE01582670C48AE217D10F9DD0987219 /* DGActivityIndicatorBallScaleAnimation.m */; };
+		CD29FE0FF7E84C6EE5D87C85FAD80B64 /* DGActivityIndicatorBallScaleRippleAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 08AC326EE1B73D1B9C038A8417CC0B69 /* DGActivityIndicatorBallScaleRippleAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE226A73152557571E8AECD1CA842202 /* ListPlaceholder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA66EAE64091C7A00B2CA5D53F6C560 /* ListPlaceholder-dummy.m */; };
+		D0D47EDBF93C7BF89E54B5E4B73AD8C5 /* DGActivityIndicatorAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C9BDF34849A89785FB87C0DE6A1975D /* DGActivityIndicatorAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1B18A94DA96CD3FC1DF41AF37B5C28F /* DGActivityIndicatorLineScaleAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5696A90BAD98EB6B815255DE20A2E348 /* DGActivityIndicatorLineScaleAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D349B43385088699007F7DDA741A024A /* DGActivityIndicatorBallClipRotatePulseAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D802AB0A05F6940B0C2E160D954466E /* DGActivityIndicatorBallClipRotatePulseAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D82DC5AAA5AA0E1A33EFE457C493D755 /* UIViewController+Visibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83C8D3BD651D274D581D625D164E60D /* UIViewController+Visibility.swift */; };
+		D91418D43E5B5812964EC37E9F155CF1 /* ListPlaceholder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA8C4228343E096D848621E3C69A24E5 /* ListPlaceholder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D968BEDB90752524AC6E756AB2A6974E /* DGActivityIndicatorBallPulseSyncAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 557C2500B4C66C73B3D03742E8A3DA17 /* DGActivityIndicatorBallPulseSyncAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D989C090FFB035786FAE744457C3B961 /* DGActivityIndicatorBallTrianglePathAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 79360C18DF7AA9FF111EF10C0847D997 /* DGActivityIndicatorBallTrianglePathAnimation.m */; };
+		D9CD7FB9338E0263A044AEF871134092 /* DGActivityIndicatorRotatingSquaresAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = DF9F03DF2C89BAFAA058CCC15EFD0DFC /* DGActivityIndicatorRotatingSquaresAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9F9E9336475EE7188F8F29DDE0A2EB1 /* PresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA5ED37E438FC684EF791B7DCF27CA1 /* PresentationController.swift */; };
+		DCEE2E72739ADFB7890C33BC35099C01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C277DDAFE68A195EDF8E21573219773 /* Foundation.framework */; };
+		DD2F32642C7F57A4EE71C41F183FEAC8 /* BlurLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A9AED7E33E816D72D8F74D7C8DACD1 /* BlurLayer.swift */; };
+		E5F50AB03EE88C8B98701C958AFADE52 /* DGActivityIndicatorNineDotsAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F935091BB54916CA59C96A022BEDE61 /* DGActivityIndicatorNineDotsAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E70A15587128277B6587E6B34FC4441F /* DGActivityIndicatorBallZigZagDeflectAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 60AE12061CB1C0EE1E74F0F2D0B0D856 /* DGActivityIndicatorBallZigZagDeflectAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9157FAB5F209124A32CE9C3BB6B6027 /* UIImage+Blur.swift in Sources */ = {isa = PBXBuildFile; fileRef = A878EB57B08A99802A255E5D9E837C8D /* UIImage+Blur.swift */; };
+		EAAED2770F1D9F3FEA83506E8FB43644 /* DGActivityIndicatorBallPulseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B026E3FBEB1A9B905B49156AE64AF0CB /* DGActivityIndicatorBallPulseAnimation.m */; };
+		EC78D8A8141D8268D6382866CDF8F16A /* InteractiveTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = C124562FF9CB6996EB64D5DD7294B66E /* InteractiveTransition.swift */; };
+		F055FDC94171AA684A938EE0B1FA31EF /* DGActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D7D68CA290C72A60CA5FA80D9DE6B9 /* DGActivityIndicatorView.m */; };
+		F0E93A84D62634FA3D611C7AFE872BD9 /* DGActivityIndicatorBallBeatAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AF69674A27D27D37C0B17C6DF85FD3F /* DGActivityIndicatorBallBeatAnimation.m */; };
+		F4D21BE903EA105A27AB2B19D5B78BBE /* DGActivityIndicatorBallTrianglePathAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = A6BA01185193E32F252F2874B08740F7 /* DGActivityIndicatorBallTrianglePathAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4D2992635042A07103F763D91E81589 /* DGActivityIndicatorAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 552E31A4CF1CAD82ED21558A1B205601 /* DGActivityIndicatorAnimation.m */; };
+		F5777916FCD3B5439D1834846FAC94B4 /* DGActivityIndicatorView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BFDA7C18BF6FC1A161BCB05A92C883 /* DGActivityIndicatorView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F680E61660996DF305E3C3C5E205A800 /* DGActivityIndicatorRotatingSquaresAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE748FC350203486E5F4A8D274C61BE /* DGActivityIndicatorRotatingSquaresAnimation.m */; };
+		F80258B7C905732466D60C60E97D7C8F /* DGActivityIndicatorRotatingTrigonAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = E8F753B0EF645A1E3B56FAECAA68A9AD /* DGActivityIndicatorRotatingTrigonAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F82E29CC1BF7165FF77D9C4A387357A7 /* PopupDialogButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE909760B2316C45C20695043711450 /* PopupDialogButton.swift */; };
+		FAF90B1CB0F9BDC87799009ECA240526 /* Pods-EtisalatRevampTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1164E7938EE2665942B3448F1D672C76 /* Pods-EtisalatRevampTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		063308316E0B6E7D3C58CBC9B60271CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EBCAF233C84E23C67FDDFAAC7C5E9BB;
+			remoteInfo = "Pods-EtisalatRevamp";
+		};
+		09F5715093B260C3B37CB46FF875FA19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E71929B582F8CD57B3DC1FD6560F047;
+			remoteInfo = PopupDialog;
+		};
+		2763FCA98104FEE93EB4E54D32DDF454 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D914FA2F03C860D5133BA2DB87C594A;
+			remoteInfo = DynamicBlurView;
+		};
+		5B8E7EB1AA41F4449DE531460AACA241 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 197CB025C6981AE8927788C5B01B9D97;
+			remoteInfo = DGActivityIndicatorView;
+		};
+		5F1FD0456C280A03C2C3D8BE6DC7CFE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E71929B582F8CD57B3DC1FD6560F047;
+			remoteInfo = PopupDialog;
+		};
+		759E52A8F1749815E152F5006932DF95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 197CB025C6981AE8927788C5B01B9D97;
+			remoteInfo = DGActivityIndicatorView;
+		};
+		777B250043550F2532010DD15C0C0485 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 881D2AF3078426440580FAD64637BBE0;
+			remoteInfo = ListPlaceholder;
+		};
+		E1F6F7D704AB79297EA9A72547E78C2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D914FA2F03C860D5133BA2DB87C594A;
+			remoteInfo = DynamicBlurView;
+		};
+		E5D812F90F4EAC9A9585098317463482 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 881D2AF3078426440580FAD64637BBE0;
+			remoteInfo = ListPlaceholder;
+		};
+		F1EFDDC6B193B422DCC405113A9B43BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D914FA2F03C860D5133BA2DB87C594A;
+			remoteInfo = DynamicBlurView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		015C10CB234E34B40E5256D110ACE68D /* Pods-EtisalatRevampTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EtisalatRevampTests-umbrella.h"; sourceTree = "<group>"; };
+		0543AA5BB3B37E01EB0A3935DFD78727 /* PopupDialogOverlayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogOverlayView.swift; path = PopupDialog/Classes/PopupDialogOverlayView.swift; sourceTree = "<group>"; };
+		078380E9CFC9BF68CA9447886ACF0EF7 /* Pods-EtisalatRevamp-EtisalatRevampUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EtisalatRevamp-EtisalatRevampUITests.release.xcconfig"; sourceTree = "<group>"; };
+		08885368AB3EA1B690742913F042EE5F /* CGContext+CGImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGContext+CGImage.swift"; path = "DynamicBlurView/CGContext+CGImage.swift"; sourceTree = "<group>"; };
+		0898970B64E589D79761E874BA6DEE77 /* DGActivityIndicatorBallClipRotateMultipleAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorBallClipRotateMultipleAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallClipRotateMultipleAnimation.m; sourceTree = "<group>"; };
+		08AC326EE1B73D1B9C038A8417CC0B69 /* DGActivityIndicatorBallScaleRippleAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorBallScaleRippleAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallScaleRippleAnimation.h; sourceTree = "<group>"; };
+		095C5F2C8731C2FAEC7BF4A2AEDE526D /* DGActivityIndicatorBallGridBeatAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorBallGridBeatAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallGridBeatAnimation.m; sourceTree = "<group>"; };
+		09A02817A1EFEE6BF694F65332B3B554 /* UIImageView+Calculations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+Calculations.swift"; path = "PopupDialog/Classes/UIImageView+Calculations.swift"; sourceTree = "<group>"; };
+		09CFF89E2D0A41A7E38DB510AE782ECB /* ListPlaceholder.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ListPlaceholder.xcconfig; sourceTree = "<group>"; };
+		09D620FBAAAEB944DEEE47EB00A6A8D2 /* PopupDialog+Keyboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PopupDialog+Keyboard.swift"; path = "PopupDialog/Classes/PopupDialog+Keyboard.swift"; sourceTree = "<group>"; };
+		10F35219AF9D5243457E158F1D806DD2 /* PopupDialogContainerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogContainerView.swift; path = PopupDialog/Classes/PopupDialogContainerView.swift; sourceTree = "<group>"; };
+		10FA61841A4B9314FB068FD921D074D6 /* TransitionAnimations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionAnimations.swift; path = PopupDialog/Classes/TransitionAnimations.swift; sourceTree = "<group>"; };
+		1164E7938EE2665942B3448F1D672C76 /* Pods-EtisalatRevampTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EtisalatRevampTests-dummy.m"; sourceTree = "<group>"; };
+		1277396D6B6B58EC7FD887E251B20CAD /* DGActivityIndicatorFiveDotsAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorFiveDotsAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorFiveDotsAnimation.m; sourceTree = "<group>"; };
+		14CE40133058F55B298A910A5F9C02B9 /* DynamicBlurView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DynamicBlurView-prefix.pch"; sourceTree = "<group>"; };
+		15AEBC9E501040F27470178B216DFF93 /* ListPlaceholder-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ListPlaceholder-prefix.pch"; sourceTree = "<group>"; };
+		1630C06C8DAACE1DD682B22EED478261 /* DGActivityIndicatorTwoDotsAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorTwoDotsAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorTwoDotsAnimation.h; sourceTree = "<group>"; };
+		17D1FDD87A2925CAEFCEE36BF77F32AC /* PopupDialogDefaultButtons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogDefaultButtons.swift; path = PopupDialog/Classes/PopupDialogDefaultButtons.swift; sourceTree = "<group>"; };
+		19BAC2F920A310DFB5619D80B4B6A4E7 /* ListLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ListLoader.swift; path = ListPlaceholder/Classes/ListLoader.swift; sourceTree = "<group>"; };
+		1AB9285FC99959A753C1305CB9A37A9A /* DGActivityIndicatorLineScalePartyAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorLineScalePartyAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorLineScalePartyAnimation.m; sourceTree = "<group>"; };
+		1FF77600E6345BCD330628EB0F592F89 /* DGActivityIndicatorTriangleSkewSpinAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorTriangleSkewSpinAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorTriangleSkewSpinAnimation.h; sourceTree = "<group>"; };
+		201D0AB4345DAF07934FC1CC93CCAB8C /* PopupDialog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PopupDialog-prefix.pch"; sourceTree = "<group>"; };
+		22BFDA7C18BF6FC1A161BCB05A92C883 /* DGActivityIndicatorView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DGActivityIndicatorView-umbrella.h"; sourceTree = "<group>"; };
+		2445D818CF910CA5EAD32C71B565CE99 /* DGActivityIndicatorBallGridPulseAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorBallGridPulseAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallGridPulseAnimation.h; sourceTree = "<group>"; };
+		25CB335094C29042F895220AF24DD93C /* PresentationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationManager.swift; path = PopupDialog/Classes/PresentationManager.swift; sourceTree = "<group>"; };
+		28B2E1386193876A56F69BE7814F9847 /* ListPlaceholder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ListPlaceholder.modulemap; sourceTree = "<group>"; };
+		2A844B4FAE1BB0E5844D26AE0116E67A /* Pods-EtisalatRevamp-EtisalatRevampUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EtisalatRevamp-EtisalatRevampUITests-frameworks.sh"; sourceTree = "<group>"; };
+		2B0546FA915A83966A953821E1B8EDF9 /* ListPlaceholder-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ListPlaceholder-Info.plist"; sourceTree = "<group>"; };
+		2B29B3A2649AC6E6D9D5F6C2828F0F54 /* DGActivityIndicatorBallScaleRippleAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorBallScaleRippleAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallScaleRippleAnimation.m; sourceTree = "<group>"; };
+		2C9BDF34849A89785FB87C0DE6A1975D /* DGActivityIndicatorAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorAnimation.h; sourceTree = "<group>"; };
+		2EF69B4816553E313334B1752B961672 /* TrackingMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TrackingMode.swift; path = DynamicBlurView/TrackingMode.swift; sourceTree = "<group>"; };
+		2F3F1B790504985F57759436F12FE1B7 /* Pods-EtisalatRevamp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EtisalatRevamp-umbrella.h"; sourceTree = "<group>"; };
+		2FA01D50FFCD6E785815378B0DAEB456 /* DGActivityIndicatorLineScaleAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorLineScaleAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorLineScaleAnimation.m; sourceTree = "<group>"; };
+		2FAAEF85CDF6E0434CB7706D0750CA20 /* DGActivityIndicatorView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DGActivityIndicatorView-prefix.pch"; sourceTree = "<group>"; };
+		303309F1C0D86FC6E07A16F5A20B415F /* PopupDialogDefaultViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogDefaultViewController.swift; path = PopupDialog/Classes/PopupDialogDefaultViewController.swift; sourceTree = "<group>"; };
+		319B0D10637C789B3A2D73E0FDE70026 /* DGActivityIndicatorBallClipRotatePulseAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorBallClipRotatePulseAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallClipRotatePulseAnimation.m; sourceTree = "<group>"; };
+		3204E7666BA6BCBB79182337D7A1D1D7 /* DynamicBlurView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DynamicBlurView-Info.plist"; sourceTree = "<group>"; };
+		34FB964502259D0FF233CE71CFDD2A71 /* PopupDialog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PopupDialog.framework; path = PopupDialog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		353629EDB10989E8948FD1FDFD2991F3 /* Pods-EtisalatRevamp-EtisalatRevampUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EtisalatRevamp-EtisalatRevampUITests-dummy.m"; sourceTree = "<group>"; };
+		389CE2036A91C860779B90F7FE39C221 /* DGActivityIndicatorLineScalePulseOutAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorLineScalePulseOutAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorLineScalePulseOutAnimation.h; sourceTree = "<group>"; };
+		3AF69674A27D27D37C0B17C6DF85FD3F /* DGActivityIndicatorBallBeatAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorBallBeatAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallBeatAnimation.m; sourceTree = "<group>"; };
+		3BC5EA35E3D6D9DCCD495A76324974B1 /* DGActivityIndicatorBallClipRotateAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorBallClipRotateAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallClipRotateAnimation.m; sourceTree = "<group>"; };
+		3C9F8BD4453C556BD7AB87608B4FA116 /* DGActivityIndicatorBallGridPulseAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorBallGridPulseAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallGridPulseAnimation.m; sourceTree = "<group>"; };
+		3D9F3C8963492DF9D8C22D7704478402 /* ListPlaceholder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ListPlaceholder.framework; path = ListPlaceholder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E9C7D6D3A3B8EC1755BF2CA7E071810 /* Pods-EtisalatRevamp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EtisalatRevamp-dummy.m"; sourceTree = "<group>"; };
+		4118E1DF57B653B1D6EA20BAD5F2C087 /* Pods-EtisalatRevampTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EtisalatRevampTests.release.xcconfig"; sourceTree = "<group>"; };
+		41471295399ACC86D58390640E6DB0B9 /* Pods-EtisalatRevampTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EtisalatRevampTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		42E589ADE38FFA118819AEC0F0EA34D3 /* Pods-EtisalatRevamp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EtisalatRevamp-acknowledgements.plist"; sourceTree = "<group>"; };
+		42F7E920A716CF56A4FC38ED57CE67EB /* TransitionAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionAnimator.swift; path = PopupDialog/Classes/TransitionAnimator.swift; sourceTree = "<group>"; };
+		4574100FCC64FDE73F9B43C486070AB1 /* DGActivityIndicatorCookieTerminatorAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorCookieTerminatorAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorCookieTerminatorAnimation.m; sourceTree = "<group>"; };
+		48605496EA7A8E9439C53C0835B30AC5 /* DynamicBlurView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DynamicBlurView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AAF7416B1401F6FEAAC2BA4F8077755 /* DGActivityIndicatorBallZigZagDeflectAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorBallZigZagDeflectAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallZigZagDeflectAnimation.m; sourceTree = "<group>"; };
+		4C277DDAFE68A195EDF8E21573219773 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4D6B48AC4A26F44F6E998C6F89246C02 /* Pods-EtisalatRevamp-EtisalatRevampUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EtisalatRevamp-EtisalatRevampUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4D72B61D4A3F93E35F6115DEDBE0A618 /* PopupDialog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PopupDialog-dummy.m"; sourceTree = "<group>"; };
+		4E42A90B8E885326757D725699EFC659 /* Pods-EtisalatRevamp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EtisalatRevamp-frameworks.sh"; sourceTree = "<group>"; };
+		552E31A4CF1CAD82ED21558A1B205601 /* DGActivityIndicatorAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorAnimation.m; sourceTree = "<group>"; };
+		557C2500B4C66C73B3D03742E8A3DA17 /* DGActivityIndicatorBallPulseSyncAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorBallPulseSyncAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallPulseSyncAnimation.h; sourceTree = "<group>"; };
+		566B6EE2449AB03E83EDCE8DEFF90EE3 /* PopupDialog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialog.swift; path = PopupDialog/Classes/PopupDialog.swift; sourceTree = "<group>"; };
+		5696A90BAD98EB6B815255DE20A2E348 /* DGActivityIndicatorLineScaleAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorLineScaleAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorLineScaleAnimation.h; sourceTree = "<group>"; };
+		5890C70914A924CF06DE4B3C6FE7A3DC /* DGActivityIndicatorBallBeatAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorBallBeatAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallBeatAnimation.h; sourceTree = "<group>"; };
+		5A3979FF7CE02E9A093236CDE35960BA /* DynamicBlurView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DynamicBlurView.h; path = DynamicBlurView/DynamicBlurView.h; sourceTree = "<group>"; };
+		5B38C2AEDB81A22E55AF767D664B02BD /* DynamicBlurView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicBlurView.swift; path = DynamicBlurView/DynamicBlurView.swift; sourceTree = "<group>"; };
+		5F5F21AC4E6DD6BBDA31656BEC801891 /* Pods-EtisalatRevampTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EtisalatRevampTests.modulemap"; sourceTree = "<group>"; };
+		5F935091BB54916CA59C96A022BEDE61 /* DGActivityIndicatorNineDotsAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorNineDotsAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorNineDotsAnimation.h; sourceTree = "<group>"; };
+		60AE12061CB1C0EE1E74F0F2D0B0D856 /* DGActivityIndicatorBallZigZagDeflectAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorBallZigZagDeflectAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallZigZagDeflectAnimation.h; sourceTree = "<group>"; };
+		6590355B4C8C22594E8B62E63EF0B930 /* Pods-EtisalatRevamp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EtisalatRevamp-Info.plist"; sourceTree = "<group>"; };
+		66E33DE4CAD3E7B625D09A0529343476 /* DGActivityIndicatorView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DGActivityIndicatorView.modulemap; sourceTree = "<group>"; };
+		698C7792749D8F8A29699C4E3B5CA919 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		6A4E08686A44AC4F0B8CE2B6C374F791 /* DGActivityIndicatorTwoDotsAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorTwoDotsAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorTwoDotsAnimation.m; sourceTree = "<group>"; };
+		6C3B7D6D0AD9DE943D5396B5215B2A17 /* DGActivityIndicatorView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DGActivityIndicatorView-Info.plist"; sourceTree = "<group>"; };
+		6CB578D0D11216B75A99E0835B5BCD6E /* DGActivityIndicatorAnimationProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorAnimationProtocol.h; path = DGActivityIndicatorView/DGActivityIndicatorAnimationProtocol.h; sourceTree = "<group>"; };
+		6F44A2575C9974D372847267C7122D8E /* DGActivityIndicatorBallGridBeatAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorBallGridBeatAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallGridBeatAnimation.h; sourceTree = "<group>"; };
+		6FAED8507D7F8095DEB1AA8E4054E3DA /* DGActivityIndicatorBallScaleMultipleAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorBallScaleMultipleAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallScaleMultipleAnimation.m; sourceTree = "<group>"; };
+		701114974B02BD394EA594D8E8A75503 /* DGActivityIndicatorRotatingSandglassAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorRotatingSandglassAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorRotatingSandglassAnimation.m; sourceTree = "<group>"; };
+		702AA635D29B039C745D75EE795C9BF6 /* Pods-EtisalatRevamp-EtisalatRevampUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EtisalatRevamp-EtisalatRevampUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		725E6D8F66B6B4253D89C6C85AF2521C /* DGActivityIndicatorBallSpinFadeLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorBallSpinFadeLoader.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallSpinFadeLoader.m; sourceTree = "<group>"; };
+		73739B74808628AEF4870C3AD6FD4959 /* DynamicBlurView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DynamicBlurView-dummy.m"; sourceTree = "<group>"; };
+		748941301A086987FC23AB9BAADEBFAD /* DGActivityIndicatorLineScalePulseOutRapidAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorLineScalePulseOutRapidAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorLineScalePulseOutRapidAnimation.h; sourceTree = "<group>"; };
+		75EF54345076B4F0A44303F47FD12B4E /* DGActivityIndicatorView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DGActivityIndicatorView.xcconfig; sourceTree = "<group>"; };
+		777695511D29BD4A5E1001E51F15529D /* PopupDialogDefaultView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogDefaultView.swift; path = PopupDialog/Classes/PopupDialogDefaultView.swift; sourceTree = "<group>"; };
+		79360C18DF7AA9FF111EF10C0847D997 /* DGActivityIndicatorBallTrianglePathAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorBallTrianglePathAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallTrianglePathAnimation.m; sourceTree = "<group>"; };
+		7C566234C6A04D7B01584C0E1FB6E217 /* Pods_EtisalatRevamp_EtisalatRevampUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EtisalatRevamp_EtisalatRevampUITests.framework; path = "Pods-EtisalatRevamp-EtisalatRevampUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D802AB0A05F6940B0C2E160D954466E /* DGActivityIndicatorBallClipRotatePulseAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorBallClipRotatePulseAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallClipRotatePulseAnimation.h; sourceTree = "<group>"; };
+		80C665400E3A53B933680CB2A994E00B /* DGActivityIndicatorRotatingSandglassAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorRotatingSandglassAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorRotatingSandglassAnimation.h; sourceTree = "<group>"; };
+		80DB836B5CB94D3C10BF13E631B6FF97 /* DynamicBlurView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DynamicBlurView.xcconfig; sourceTree = "<group>"; };
+		8272D2A80CCC364922D189CA6AF43068 /* DGActivityIndicatorTripleRingsAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorTripleRingsAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorTripleRingsAnimation.m; sourceTree = "<group>"; };
+		828915805ABD88D75E481E01F2BABD8C /* Pods-EtisalatRevamp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EtisalatRevamp.release.xcconfig"; sourceTree = "<group>"; };
+		83D98C3B215F82DEB4A48ACB4BC0A8F1 /* DGActivityIndicatorTriplePulseAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorTriplePulseAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorTriplePulseAnimation.h; sourceTree = "<group>"; };
+		855DD592C750F3172873AF8884E9BF51 /* DGActivityIndicatorBallRotateAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorBallRotateAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallRotateAnimation.m; sourceTree = "<group>"; };
+		86C4A2D817E6CFFF31BF75161625FD5D /* DynamicBlurView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DynamicBlurView.framework; path = DynamicBlurView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88DCC0E5D2CEB46A68604BFB028650B8 /* DynamicBlurView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DynamicBlurView.modulemap; sourceTree = "<group>"; };
+		88FE639E523FFC08D8C3B9E555F7BF7F /* Pods-EtisalatRevampTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EtisalatRevampTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8C58881891B0F39550E2D33961FA5908 /* Pods_EtisalatRevampTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EtisalatRevampTests.framework; path = "Pods-EtisalatRevampTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E42EFA76080F4DF15B42BD191EEC43C /* DGActivityIndicatorBallClipRotateMultipleAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorBallClipRotateMultipleAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallClipRotateMultipleAnimation.h; sourceTree = "<group>"; };
+		8EA66EAE64091C7A00B2CA5D53F6C560 /* ListPlaceholder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ListPlaceholder-dummy.m"; sourceTree = "<group>"; };
+		8FFD401A7135CFD14BCA770AF0E0C210 /* UIView+Animations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Animations.swift"; path = "PopupDialog/Classes/UIView+Animations.swift"; sourceTree = "<group>"; };
+		90494CEF1645D653B83561BD7B1CA964 /* DGActivityIndicatorBallRotateAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorBallRotateAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallRotateAnimation.h; sourceTree = "<group>"; };
+		91C4DAA02A2B84AD9B7AC38ABED572F4 /* PopupDialog-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PopupDialog-Info.plist"; sourceTree = "<group>"; };
+		937E34D3173F0C281BB630FAD9843CBF /* PopupDialog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PopupDialog.modulemap; sourceTree = "<group>"; };
+		94D7D68CA290C72A60CA5FA80D9DE6B9 /* DGActivityIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorView.m; path = DGActivityIndicatorView/DGActivityIndicatorView.m; sourceTree = "<group>"; };
+		974FC39721D14645E50C60E6FFFC37D2 /* DGActivityIndicatorThreeDotsAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorThreeDotsAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorThreeDotsAnimation.m; sourceTree = "<group>"; };
+		98ECDEECC530B8D11781966A029FB1E9 /* Pods-EtisalatRevamp-EtisalatRevampUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EtisalatRevamp-EtisalatRevampUITests-umbrella.h"; sourceTree = "<group>"; };
+		99710E9523F135836CC9389D194FC46D /* DGActivityIndicatorLineScalePartyAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorLineScalePartyAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorLineScalePartyAnimation.h; sourceTree = "<group>"; };
+		9BA5ED37E438FC684EF791B7DCF27CA1 /* PresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationController.swift; path = PopupDialog/Classes/PresentationController.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DCD0050B4C550D5C7E5A86CC175823E /* CGImage+Accelerate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGImage+Accelerate.swift"; path = "DynamicBlurView/CGImage+Accelerate.swift"; sourceTree = "<group>"; };
+		9E644F05950D73A92BA99E2C7920F54E /* DGActivityIndicatorLineScalePulseOutAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorLineScalePulseOutAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorLineScalePulseOutAnimation.m; sourceTree = "<group>"; };
+		9F2983A4D7DD55D6CA6DD000A169CA7B /* DGActivityIndicatorBallPulseAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorBallPulseAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallPulseAnimation.h; sourceTree = "<group>"; };
+		A4411666A84BB3F2322293CC90C171C2 /* Pods_EtisalatRevamp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EtisalatRevamp.framework; path = "Pods-EtisalatRevamp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4738B157CA778456084DB507F1A3713 /* DGActivityIndicatorView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DGActivityIndicatorView-dummy.m"; sourceTree = "<group>"; };
+		A541C9B6CE5A31546693D39CA57242D4 /* Pods-EtisalatRevamp-EtisalatRevampUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EtisalatRevamp-EtisalatRevampUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A598983CF53762F5F85B919AD2408E56 /* DGActivityIndicatorCookieTerminatorAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorCookieTerminatorAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorCookieTerminatorAnimation.h; sourceTree = "<group>"; };
+		A6BA01185193E32F252F2874B08740F7 /* DGActivityIndicatorBallTrianglePathAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorBallTrianglePathAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallTrianglePathAnimation.h; sourceTree = "<group>"; };
+		A72B416307729DF915379A46CBC3A675 /* DGActivityIndicatorNineDotsAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorNineDotsAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorNineDotsAnimation.m; sourceTree = "<group>"; };
+		A878EB57B08A99802A255E5D9E837C8D /* UIImage+Blur.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Blur.swift"; path = "DynamicBlurView/UIImage+Blur.swift"; sourceTree = "<group>"; };
+		A8E9421C7FDA7C082D44E77BB1C7AEA9 /* PopupDialog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PopupDialog-umbrella.h"; sourceTree = "<group>"; };
+		A946319A177C66410833F1A66087DE13 /* DGActivityIndicatorBallClipRotateAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorBallClipRotateAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallClipRotateAnimation.h; sourceTree = "<group>"; };
+		AB838556A4ED46723D0C976D7A2AA12E /* DGActivityIndicatorTriplePulseAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorTriplePulseAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorTriplePulseAnimation.m; sourceTree = "<group>"; };
+		AC8011056F2985387DFBCDA1AB01137E /* DGActivityIndicatorBallScaleRippleMultipleAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorBallScaleRippleMultipleAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallScaleRippleMultipleAnimation.m; sourceTree = "<group>"; };
+		ACE748FC350203486E5F4A8D274C61BE /* DGActivityIndicatorRotatingSquaresAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorRotatingSquaresAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorRotatingSquaresAnimation.m; sourceTree = "<group>"; };
+		ACE909760B2316C45C20695043711450 /* PopupDialogButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogButton.swift; path = PopupDialog/Classes/PopupDialogButton.swift; sourceTree = "<group>"; };
+		AF7FFF52CD761C6A279FB7C9CCE5FE12 /* DGActivityIndicatorBallZigZagAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorBallZigZagAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallZigZagAnimation.h; sourceTree = "<group>"; };
+		B026E3FBEB1A9B905B49156AE64AF0CB /* DGActivityIndicatorBallPulseAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorBallPulseAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallPulseAnimation.m; sourceTree = "<group>"; };
+		B038C101BD2FE94066FA8736F53A0C9B /* DGActivityIndicatorLineScalePulseOutRapidAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorLineScalePulseOutRapidAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorLineScalePulseOutRapidAnimation.m; sourceTree = "<group>"; };
+		B31C3DBAA4D7DD42AFD34A5C20ACCBAC /* DGActivityIndicatorFiveDotsAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorFiveDotsAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorFiveDotsAnimation.h; sourceTree = "<group>"; };
+		B3B5AAB5A8151C008A85787BD1B43F19 /* Pods-EtisalatRevampTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EtisalatRevampTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B55E9AF26D2282098ABD3999E2AD16BE /* DGActivityIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorView.h; path = DGActivityIndicatorView/DGActivityIndicatorView.h; sourceTree = "<group>"; };
+		B6249D0DEDE09097FCB7FFE25FCBD3B7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B7D9D343154BABDB2F4602FA28283B23 /* DGActivityIndicatorDoubleBounceAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorDoubleBounceAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorDoubleBounceAnimation.m; sourceTree = "<group>"; };
+		B8D6211A44D9FA8DFAD86C493181942A /* DynamicBlurView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DynamicBlurView-umbrella.h"; sourceTree = "<group>"; };
+		BC39C7DE03D918CDD6C21AEE6950197A /* DGActivityIndicatorView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DGActivityIndicatorView.framework; path = DGActivityIndicatorView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF5840FAA98770AE7C65559D296364BE /* Pods-EtisalatRevamp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EtisalatRevamp.modulemap"; sourceTree = "<group>"; };
+		C124562FF9CB6996EB64D5DD7294B66E /* InteractiveTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InteractiveTransition.swift; path = PopupDialog/Classes/InteractiveTransition.swift; sourceTree = "<group>"; };
+		C2AA47C04A193E2591580BCE41669AA2 /* CaptureQuality.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CaptureQuality.swift; path = DynamicBlurView/CaptureQuality.swift; sourceTree = "<group>"; };
+		C4A9AED7E33E816D72D8F74D7C8DACD1 /* BlurLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlurLayer.swift; path = DynamicBlurView/BlurLayer.swift; sourceTree = "<group>"; };
+		C7BEAD1DF42714422E08AB7B8AEEA791 /* DGActivityIndicatorDoubleBounceAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorDoubleBounceAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorDoubleBounceAnimation.h; sourceTree = "<group>"; };
+		C83C8D3BD651D274D581D625D164E60D /* UIViewController+Visibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Visibility.swift"; path = "PopupDialog/Classes/UIViewController+Visibility.swift"; sourceTree = "<group>"; };
+		C99C3EC844A5BF747C884169D6FF6B39 /* DGActivityIndicatorBallPulseSyncAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorBallPulseSyncAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallPulseSyncAnimation.m; sourceTree = "<group>"; };
+		CA8C4228343E096D848621E3C69A24E5 /* ListPlaceholder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ListPlaceholder-umbrella.h"; sourceTree = "<group>"; };
+		CA909CB8B7B4325BAC175A9330A291AE /* DGActivityIndicatorBallSpinFadeLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorBallSpinFadeLoader.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallSpinFadeLoader.h; sourceTree = "<group>"; };
+		CA97B96216FE74CC0870D00CC6B65B8E /* DGActivityIndicatorBallScaleRippleMultipleAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorBallScaleRippleMultipleAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallScaleRippleMultipleAnimation.h; sourceTree = "<group>"; };
+		CE01582670C48AE217D10F9DD0987219 /* DGActivityIndicatorBallScaleAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorBallScaleAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallScaleAnimation.m; sourceTree = "<group>"; };
+		D5655365562735DD913B5EB8C8CA6442 /* Pods-EtisalatRevamp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EtisalatRevamp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D78751AB07A144084F68C4505C39C274 /* Pods-EtisalatRevamp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EtisalatRevamp.debug.xcconfig"; sourceTree = "<group>"; };
+		DBBEFC216D7642BA7687FB764B5EA43F /* PopupDialog.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PopupDialog.xcconfig; sourceTree = "<group>"; };
+		DF11BBB6046E16F2068FE80AE08D220A /* DGActivityIndicatorTriangleSkewSpinAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorTriangleSkewSpinAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorTriangleSkewSpinAnimation.m; sourceTree = "<group>"; };
+		DF9F03DF2C89BAFAA058CCC15EFD0DFC /* DGActivityIndicatorRotatingSquaresAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorRotatingSquaresAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorRotatingSquaresAnimation.h; sourceTree = "<group>"; };
+		E05A815B6C10DCCEB8078E780E68D72A /* DGActivityIndicatorBallScaleAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorBallScaleAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallScaleAnimation.h; sourceTree = "<group>"; };
+		E174D0D2591647F1C2A99052AE5F621F /* Pods-EtisalatRevamp-EtisalatRevampUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EtisalatRevamp-EtisalatRevampUITests-Info.plist"; sourceTree = "<group>"; };
+		E3B3D10B45321F0EE88209E17DE820D4 /* DGActivityIndicatorBallZigZagAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorBallZigZagAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallZigZagAnimation.m; sourceTree = "<group>"; };
+		E7F496EC98BDC8CA905D3F22C5671894 /* Pods-EtisalatRevampTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EtisalatRevampTests-Info.plist"; sourceTree = "<group>"; };
+		E8F753B0EF645A1E3B56FAECAA68A9AD /* DGActivityIndicatorRotatingTrigonAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorRotatingTrigonAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorRotatingTrigonAnimation.h; sourceTree = "<group>"; };
+		EABEA4A445BEF8CBA3685A6D96B930BF /* DGActivityIndicatorTripleRingsAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorTripleRingsAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorTripleRingsAnimation.h; sourceTree = "<group>"; };
+		EEFA3260641FBDC72E5D5F6C33BB78AE /* DGActivityIndicatorBallScaleMultipleAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorBallScaleMultipleAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorBallScaleMultipleAnimation.h; sourceTree = "<group>"; };
+		F0C21A87B9DB78F912842B2D06AF2B9D /* Pods-EtisalatRevamp-EtisalatRevampUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EtisalatRevamp-EtisalatRevampUITests.modulemap"; sourceTree = "<group>"; };
+		FA24F1FB68CDFF94B58083D96EBEB474 /* DGActivityIndicatorRotatingTrigonAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGActivityIndicatorRotatingTrigonAnimation.m; path = DGActivityIndicatorView/Animations/DGActivityIndicatorRotatingTrigonAnimation.m; sourceTree = "<group>"; };
+		FFD71C739BB16F5FD2A04D7867750B91 /* DGActivityIndicatorThreeDotsAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicatorThreeDotsAnimation.h; path = DGActivityIndicatorView/Animations/DGActivityIndicatorThreeDotsAnimation.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B87E9390316A521FA244F6204F86B7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1A2BBB0E3A76E5019D18D1295ADAB84 /* Foundation.framework in Frameworks */,
+				2ED034DC5E53FBDB4C927E5AA1FE488F /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49E553628CA13921105092396934D5FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73F6D88B3689FA9F381B8C1D0E2C8E04 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6557E9BD0BBC30C2016EBE18EE9875E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				714E33F87CB36C503B4AA05AE3AF4916 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74F47434089ED97AF48B711E9FADBF5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C6E460A6B911AFFD987F78AC59B7466 /* DynamicBlurView.framework in Frameworks */,
+				B18FE5EE478D75593AE4D0C6B1E6506F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE7C1D04762EB447C5A0C148DA130DBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				018D33AF924BB2D59C32B877FFDEFA9A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E65CA3D384260DCB7B4E58EA234ABEA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B45F788C4CE05D2DC0686432FB0EE22 /* Accelerate.framework in Frameworks */,
+				DCEE2E72739ADFB7890C33BC35099C01 /* Foundation.framework in Frameworks */,
+				00620E71264E0E954D667CEAD6BD0E99 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE738E0C441F197B2DF409216F3B2C8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7581DC03E7CCF8E31A002CC9A7A6F6DA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		041175881A243B638260989E272FC82A /* ListPlaceholder */ = {
+			isa = PBXGroup;
+			children = (
+				19BAC2F920A310DFB5619D80B4B6A4E7 /* ListLoader.swift */,
+				8F8763BD2F1E66EBD41E55440FA25945 /* Support Files */,
+			);
+			name = ListPlaceholder;
+			path = ListPlaceholder;
+			sourceTree = "<group>";
+		};
+		052AB9C979773474109AB5EED6FC4AE9 /* PopupDialog */ = {
+			isa = PBXGroup;
+			children = (
+				C124562FF9CB6996EB64D5DD7294B66E /* InteractiveTransition.swift */,
+				566B6EE2449AB03E83EDCE8DEFF90EE3 /* PopupDialog.swift */,
+				09D620FBAAAEB944DEEE47EB00A6A8D2 /* PopupDialog+Keyboard.swift */,
+				ACE909760B2316C45C20695043711450 /* PopupDialogButton.swift */,
+				10F35219AF9D5243457E158F1D806DD2 /* PopupDialogContainerView.swift */,
+				17D1FDD87A2925CAEFCEE36BF77F32AC /* PopupDialogDefaultButtons.swift */,
+				777695511D29BD4A5E1001E51F15529D /* PopupDialogDefaultView.swift */,
+				303309F1C0D86FC6E07A16F5A20B415F /* PopupDialogDefaultViewController.swift */,
+				0543AA5BB3B37E01EB0A3935DFD78727 /* PopupDialogOverlayView.swift */,
+				9BA5ED37E438FC684EF791B7DCF27CA1 /* PresentationController.swift */,
+				25CB335094C29042F895220AF24DD93C /* PresentationManager.swift */,
+				10FA61841A4B9314FB068FD921D074D6 /* TransitionAnimations.swift */,
+				42F7E920A716CF56A4FC38ED57CE67EB /* TransitionAnimator.swift */,
+				09A02817A1EFEE6BF694F65332B3B554 /* UIImageView+Calculations.swift */,
+				8FFD401A7135CFD14BCA770AF0E0C210 /* UIView+Animations.swift */,
+				C83C8D3BD651D274D581D625D164E60D /* UIViewController+Visibility.swift */,
+				C1A055A4001ED7F6B71D7E68EB933F96 /* Support Files */,
+			);
+			name = PopupDialog;
+			path = PopupDialog;
+			sourceTree = "<group>";
+		};
+		053E84FC6AF67A6536BD683C378FAC51 /* Pods-EtisalatRevamp */ = {
+			isa = PBXGroup;
+			children = (
+				BF5840FAA98770AE7C65559D296364BE /* Pods-EtisalatRevamp.modulemap */,
+				D5655365562735DD913B5EB8C8CA6442 /* Pods-EtisalatRevamp-acknowledgements.markdown */,
+				42E589ADE38FFA118819AEC0F0EA34D3 /* Pods-EtisalatRevamp-acknowledgements.plist */,
+				3E9C7D6D3A3B8EC1755BF2CA7E071810 /* Pods-EtisalatRevamp-dummy.m */,
+				4E42A90B8E885326757D725699EFC659 /* Pods-EtisalatRevamp-frameworks.sh */,
+				6590355B4C8C22594E8B62E63EF0B930 /* Pods-EtisalatRevamp-Info.plist */,
+				2F3F1B790504985F57759436F12FE1B7 /* Pods-EtisalatRevamp-umbrella.h */,
+				D78751AB07A144084F68C4505C39C274 /* Pods-EtisalatRevamp.debug.xcconfig */,
+				828915805ABD88D75E481E01F2BABD8C /* Pods-EtisalatRevamp.release.xcconfig */,
+			);
+			name = "Pods-EtisalatRevamp";
+			path = "Target Support Files/Pods-EtisalatRevamp";
+			sourceTree = "<group>";
+		};
+		1BE02B5ECF6EDD07657F395FFF2D88C1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				670B9AC5734079B463B1B26A40A13B00 /* DGActivityIndicatorView */,
+				AC7D3127037FB3876B474ECC56AD7F3B /* DynamicBlurView */,
+				041175881A243B638260989E272FC82A /* ListPlaceholder */,
+				052AB9C979773474109AB5EED6FC4AE9 /* PopupDialog */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1FBDD8418CE8BE4BB86701B2D2700018 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC39C7DE03D918CDD6C21AEE6950197A /* DGActivityIndicatorView.framework */,
+				86C4A2D817E6CFFF31BF75161625FD5D /* DynamicBlurView.framework */,
+				3D9F3C8963492DF9D8C22D7704478402 /* ListPlaceholder.framework */,
+				A4411666A84BB3F2322293CC90C171C2 /* Pods_EtisalatRevamp.framework */,
+				7C566234C6A04D7B01584C0E1FB6E217 /* Pods_EtisalatRevamp_EtisalatRevampUITests.framework */,
+				8C58881891B0F39550E2D33961FA5908 /* Pods_EtisalatRevampTests.framework */,
+				34FB964502259D0FF233CE71CFDD2A71 /* PopupDialog.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29056A8A224CB5C33FE3AAE724F192FB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				88DCC0E5D2CEB46A68604BFB028650B8 /* DynamicBlurView.modulemap */,
+				80DB836B5CB94D3C10BF13E631B6FF97 /* DynamicBlurView.xcconfig */,
+				73739B74808628AEF4870C3AD6FD4959 /* DynamicBlurView-dummy.m */,
+				3204E7666BA6BCBB79182337D7A1D1D7 /* DynamicBlurView-Info.plist */,
+				14CE40133058F55B298A910A5F9C02B9 /* DynamicBlurView-prefix.pch */,
+				B8D6211A44D9FA8DFAD86C493181942A /* DynamicBlurView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DynamicBlurView";
+			sourceTree = "<group>";
+		};
+		3BEB3A40C50C630D155B32AE0DE3A29F /* Pods-EtisalatRevamp-EtisalatRevampUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F0C21A87B9DB78F912842B2D06AF2B9D /* Pods-EtisalatRevamp-EtisalatRevampUITests.modulemap */,
+				702AA635D29B039C745D75EE795C9BF6 /* Pods-EtisalatRevamp-EtisalatRevampUITests-acknowledgements.markdown */,
+				A541C9B6CE5A31546693D39CA57242D4 /* Pods-EtisalatRevamp-EtisalatRevampUITests-acknowledgements.plist */,
+				353629EDB10989E8948FD1FDFD2991F3 /* Pods-EtisalatRevamp-EtisalatRevampUITests-dummy.m */,
+				2A844B4FAE1BB0E5844D26AE0116E67A /* Pods-EtisalatRevamp-EtisalatRevampUITests-frameworks.sh */,
+				E174D0D2591647F1C2A99052AE5F621F /* Pods-EtisalatRevamp-EtisalatRevampUITests-Info.plist */,
+				98ECDEECC530B8D11781966A029FB1E9 /* Pods-EtisalatRevamp-EtisalatRevampUITests-umbrella.h */,
+				4D6B48AC4A26F44F6E998C6F89246C02 /* Pods-EtisalatRevamp-EtisalatRevampUITests.debug.xcconfig */,
+				078380E9CFC9BF68CA9447886ACF0EF7 /* Pods-EtisalatRevamp-EtisalatRevampUITests.release.xcconfig */,
+			);
+			name = "Pods-EtisalatRevamp-EtisalatRevampUITests";
+			path = "Target Support Files/Pods-EtisalatRevamp-EtisalatRevampUITests";
+			sourceTree = "<group>";
+		};
+		51E7BAD2FB4A8DF8B60DD934FD84C0BF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				66E33DE4CAD3E7B625D09A0529343476 /* DGActivityIndicatorView.modulemap */,
+				75EF54345076B4F0A44303F47FD12B4E /* DGActivityIndicatorView.xcconfig */,
+				A4738B157CA778456084DB507F1A3713 /* DGActivityIndicatorView-dummy.m */,
+				6C3B7D6D0AD9DE943D5396B5215B2A17 /* DGActivityIndicatorView-Info.plist */,
+				2FAAEF85CDF6E0434CB7706D0750CA20 /* DGActivityIndicatorView-prefix.pch */,
+				22BFDA7C18BF6FC1A161BCB05A92C883 /* DGActivityIndicatorView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DGActivityIndicatorView";
+			sourceTree = "<group>";
+		};
+		642E235CF11880CFF231F4D698251A0A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				053E84FC6AF67A6536BD683C378FAC51 /* Pods-EtisalatRevamp */,
+				3BEB3A40C50C630D155B32AE0DE3A29F /* Pods-EtisalatRevamp-EtisalatRevampUITests */,
+				AA8264C42315BBE17EA1CD51A17B1E21 /* Pods-EtisalatRevampTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		670B9AC5734079B463B1B26A40A13B00 /* DGActivityIndicatorView */ = {
+			isa = PBXGroup;
+			children = (
+				2C9BDF34849A89785FB87C0DE6A1975D /* DGActivityIndicatorAnimation.h */,
+				552E31A4CF1CAD82ED21558A1B205601 /* DGActivityIndicatorAnimation.m */,
+				6CB578D0D11216B75A99E0835B5BCD6E /* DGActivityIndicatorAnimationProtocol.h */,
+				5890C70914A924CF06DE4B3C6FE7A3DC /* DGActivityIndicatorBallBeatAnimation.h */,
+				3AF69674A27D27D37C0B17C6DF85FD3F /* DGActivityIndicatorBallBeatAnimation.m */,
+				A946319A177C66410833F1A66087DE13 /* DGActivityIndicatorBallClipRotateAnimation.h */,
+				3BC5EA35E3D6D9DCCD495A76324974B1 /* DGActivityIndicatorBallClipRotateAnimation.m */,
+				8E42EFA76080F4DF15B42BD191EEC43C /* DGActivityIndicatorBallClipRotateMultipleAnimation.h */,
+				0898970B64E589D79761E874BA6DEE77 /* DGActivityIndicatorBallClipRotateMultipleAnimation.m */,
+				7D802AB0A05F6940B0C2E160D954466E /* DGActivityIndicatorBallClipRotatePulseAnimation.h */,
+				319B0D10637C789B3A2D73E0FDE70026 /* DGActivityIndicatorBallClipRotatePulseAnimation.m */,
+				6F44A2575C9974D372847267C7122D8E /* DGActivityIndicatorBallGridBeatAnimation.h */,
+				095C5F2C8731C2FAEC7BF4A2AEDE526D /* DGActivityIndicatorBallGridBeatAnimation.m */,
+				2445D818CF910CA5EAD32C71B565CE99 /* DGActivityIndicatorBallGridPulseAnimation.h */,
+				3C9F8BD4453C556BD7AB87608B4FA116 /* DGActivityIndicatorBallGridPulseAnimation.m */,
+				9F2983A4D7DD55D6CA6DD000A169CA7B /* DGActivityIndicatorBallPulseAnimation.h */,
+				B026E3FBEB1A9B905B49156AE64AF0CB /* DGActivityIndicatorBallPulseAnimation.m */,
+				557C2500B4C66C73B3D03742E8A3DA17 /* DGActivityIndicatorBallPulseSyncAnimation.h */,
+				C99C3EC844A5BF747C884169D6FF6B39 /* DGActivityIndicatorBallPulseSyncAnimation.m */,
+				90494CEF1645D653B83561BD7B1CA964 /* DGActivityIndicatorBallRotateAnimation.h */,
+				855DD592C750F3172873AF8884E9BF51 /* DGActivityIndicatorBallRotateAnimation.m */,
+				E05A815B6C10DCCEB8078E780E68D72A /* DGActivityIndicatorBallScaleAnimation.h */,
+				CE01582670C48AE217D10F9DD0987219 /* DGActivityIndicatorBallScaleAnimation.m */,
+				EEFA3260641FBDC72E5D5F6C33BB78AE /* DGActivityIndicatorBallScaleMultipleAnimation.h */,
+				6FAED8507D7F8095DEB1AA8E4054E3DA /* DGActivityIndicatorBallScaleMultipleAnimation.m */,
+				08AC326EE1B73D1B9C038A8417CC0B69 /* DGActivityIndicatorBallScaleRippleAnimation.h */,
+				2B29B3A2649AC6E6D9D5F6C2828F0F54 /* DGActivityIndicatorBallScaleRippleAnimation.m */,
+				CA97B96216FE74CC0870D00CC6B65B8E /* DGActivityIndicatorBallScaleRippleMultipleAnimation.h */,
+				AC8011056F2985387DFBCDA1AB01137E /* DGActivityIndicatorBallScaleRippleMultipleAnimation.m */,
+				CA909CB8B7B4325BAC175A9330A291AE /* DGActivityIndicatorBallSpinFadeLoader.h */,
+				725E6D8F66B6B4253D89C6C85AF2521C /* DGActivityIndicatorBallSpinFadeLoader.m */,
+				A6BA01185193E32F252F2874B08740F7 /* DGActivityIndicatorBallTrianglePathAnimation.h */,
+				79360C18DF7AA9FF111EF10C0847D997 /* DGActivityIndicatorBallTrianglePathAnimation.m */,
+				AF7FFF52CD761C6A279FB7C9CCE5FE12 /* DGActivityIndicatorBallZigZagAnimation.h */,
+				E3B3D10B45321F0EE88209E17DE820D4 /* DGActivityIndicatorBallZigZagAnimation.m */,
+				60AE12061CB1C0EE1E74F0F2D0B0D856 /* DGActivityIndicatorBallZigZagDeflectAnimation.h */,
+				4AAF7416B1401F6FEAAC2BA4F8077755 /* DGActivityIndicatorBallZigZagDeflectAnimation.m */,
+				A598983CF53762F5F85B919AD2408E56 /* DGActivityIndicatorCookieTerminatorAnimation.h */,
+				4574100FCC64FDE73F9B43C486070AB1 /* DGActivityIndicatorCookieTerminatorAnimation.m */,
+				C7BEAD1DF42714422E08AB7B8AEEA791 /* DGActivityIndicatorDoubleBounceAnimation.h */,
+				B7D9D343154BABDB2F4602FA28283B23 /* DGActivityIndicatorDoubleBounceAnimation.m */,
+				B31C3DBAA4D7DD42AFD34A5C20ACCBAC /* DGActivityIndicatorFiveDotsAnimation.h */,
+				1277396D6B6B58EC7FD887E251B20CAD /* DGActivityIndicatorFiveDotsAnimation.m */,
+				5696A90BAD98EB6B815255DE20A2E348 /* DGActivityIndicatorLineScaleAnimation.h */,
+				2FA01D50FFCD6E785815378B0DAEB456 /* DGActivityIndicatorLineScaleAnimation.m */,
+				99710E9523F135836CC9389D194FC46D /* DGActivityIndicatorLineScalePartyAnimation.h */,
+				1AB9285FC99959A753C1305CB9A37A9A /* DGActivityIndicatorLineScalePartyAnimation.m */,
+				389CE2036A91C860779B90F7FE39C221 /* DGActivityIndicatorLineScalePulseOutAnimation.h */,
+				9E644F05950D73A92BA99E2C7920F54E /* DGActivityIndicatorLineScalePulseOutAnimation.m */,
+				748941301A086987FC23AB9BAADEBFAD /* DGActivityIndicatorLineScalePulseOutRapidAnimation.h */,
+				B038C101BD2FE94066FA8736F53A0C9B /* DGActivityIndicatorLineScalePulseOutRapidAnimation.m */,
+				5F935091BB54916CA59C96A022BEDE61 /* DGActivityIndicatorNineDotsAnimation.h */,
+				A72B416307729DF915379A46CBC3A675 /* DGActivityIndicatorNineDotsAnimation.m */,
+				80C665400E3A53B933680CB2A994E00B /* DGActivityIndicatorRotatingSandglassAnimation.h */,
+				701114974B02BD394EA594D8E8A75503 /* DGActivityIndicatorRotatingSandglassAnimation.m */,
+				DF9F03DF2C89BAFAA058CCC15EFD0DFC /* DGActivityIndicatorRotatingSquaresAnimation.h */,
+				ACE748FC350203486E5F4A8D274C61BE /* DGActivityIndicatorRotatingSquaresAnimation.m */,
+				E8F753B0EF645A1E3B56FAECAA68A9AD /* DGActivityIndicatorRotatingTrigonAnimation.h */,
+				FA24F1FB68CDFF94B58083D96EBEB474 /* DGActivityIndicatorRotatingTrigonAnimation.m */,
+				FFD71C739BB16F5FD2A04D7867750B91 /* DGActivityIndicatorThreeDotsAnimation.h */,
+				974FC39721D14645E50C60E6FFFC37D2 /* DGActivityIndicatorThreeDotsAnimation.m */,
+				1FF77600E6345BCD330628EB0F592F89 /* DGActivityIndicatorTriangleSkewSpinAnimation.h */,
+				DF11BBB6046E16F2068FE80AE08D220A /* DGActivityIndicatorTriangleSkewSpinAnimation.m */,
+				83D98C3B215F82DEB4A48ACB4BC0A8F1 /* DGActivityIndicatorTriplePulseAnimation.h */,
+				AB838556A4ED46723D0C976D7A2AA12E /* DGActivityIndicatorTriplePulseAnimation.m */,
+				EABEA4A445BEF8CBA3685A6D96B930BF /* DGActivityIndicatorTripleRingsAnimation.h */,
+				8272D2A80CCC364922D189CA6AF43068 /* DGActivityIndicatorTripleRingsAnimation.m */,
+				1630C06C8DAACE1DD682B22EED478261 /* DGActivityIndicatorTwoDotsAnimation.h */,
+				6A4E08686A44AC4F0B8CE2B6C374F791 /* DGActivityIndicatorTwoDotsAnimation.m */,
+				B55E9AF26D2282098ABD3999E2AD16BE /* DGActivityIndicatorView.h */,
+				94D7D68CA290C72A60CA5FA80D9DE6B9 /* DGActivityIndicatorView.m */,
+				51E7BAD2FB4A8DF8B60DD934FD84C0BF /* Support Files */,
+			);
+			name = DGActivityIndicatorView;
+			path = DGActivityIndicatorView;
+			sourceTree = "<group>";
+		};
+		7F9D3681372E9E3EC2FE2A4BE7253AF1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48605496EA7A8E9439C53C0835B30AC5 /* DynamicBlurView.framework */,
+				EF560866D2792929CF9E42DB507B41B6 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8F8763BD2F1E66EBD41E55440FA25945 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				28B2E1386193876A56F69BE7814F9847 /* ListPlaceholder.modulemap */,
+				09CFF89E2D0A41A7E38DB510AE782ECB /* ListPlaceholder.xcconfig */,
+				8EA66EAE64091C7A00B2CA5D53F6C560 /* ListPlaceholder-dummy.m */,
+				2B0546FA915A83966A953821E1B8EDF9 /* ListPlaceholder-Info.plist */,
+				15AEBC9E501040F27470178B216DFF93 /* ListPlaceholder-prefix.pch */,
+				CA8C4228343E096D848621E3C69A24E5 /* ListPlaceholder-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ListPlaceholder";
+			sourceTree = "<group>";
+		};
+		AA8264C42315BBE17EA1CD51A17B1E21 /* Pods-EtisalatRevampTests */ = {
+			isa = PBXGroup;
+			children = (
+				5F5F21AC4E6DD6BBDA31656BEC801891 /* Pods-EtisalatRevampTests.modulemap */,
+				41471295399ACC86D58390640E6DB0B9 /* Pods-EtisalatRevampTests-acknowledgements.markdown */,
+				88FE639E523FFC08D8C3B9E555F7BF7F /* Pods-EtisalatRevampTests-acknowledgements.plist */,
+				1164E7938EE2665942B3448F1D672C76 /* Pods-EtisalatRevampTests-dummy.m */,
+				E7F496EC98BDC8CA905D3F22C5671894 /* Pods-EtisalatRevampTests-Info.plist */,
+				015C10CB234E34B40E5256D110ACE68D /* Pods-EtisalatRevampTests-umbrella.h */,
+				B3B5AAB5A8151C008A85787BD1B43F19 /* Pods-EtisalatRevampTests.debug.xcconfig */,
+				4118E1DF57B653B1D6EA20BAD5F2C087 /* Pods-EtisalatRevampTests.release.xcconfig */,
+			);
+			name = "Pods-EtisalatRevampTests";
+			path = "Target Support Files/Pods-EtisalatRevampTests";
+			sourceTree = "<group>";
+		};
+		AC7D3127037FB3876B474ECC56AD7F3B /* DynamicBlurView */ = {
+			isa = PBXGroup;
+			children = (
+				C4A9AED7E33E816D72D8F74D7C8DACD1 /* BlurLayer.swift */,
+				C2AA47C04A193E2591580BCE41669AA2 /* CaptureQuality.swift */,
+				08885368AB3EA1B690742913F042EE5F /* CGContext+CGImage.swift */,
+				9DCD0050B4C550D5C7E5A86CC175823E /* CGImage+Accelerate.swift */,
+				5A3979FF7CE02E9A093236CDE35960BA /* DynamicBlurView.h */,
+				5B38C2AEDB81A22E55AF767D664B02BD /* DynamicBlurView.swift */,
+				2EF69B4816553E313334B1752B961672 /* TrackingMode.swift */,
+				A878EB57B08A99802A255E5D9E837C8D /* UIImage+Blur.swift */,
+				29056A8A224CB5C33FE3AAE724F192FB /* Support Files */,
+			);
+			name = DynamicBlurView;
+			path = DynamicBlurView;
+			sourceTree = "<group>";
+		};
+		C1A055A4001ED7F6B71D7E68EB933F96 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				937E34D3173F0C281BB630FAD9843CBF /* PopupDialog.modulemap */,
+				DBBEFC216D7642BA7687FB764B5EA43F /* PopupDialog.xcconfig */,
+				4D72B61D4A3F93E35F6115DEDBE0A618 /* PopupDialog-dummy.m */,
+				91C4DAA02A2B84AD9B7AC38ABED572F4 /* PopupDialog-Info.plist */,
+				201D0AB4345DAF07934FC1CC93CCAB8C /* PopupDialog-prefix.pch */,
+				A8E9421C7FDA7C082D44E77BB1C7AEA9 /* PopupDialog-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PopupDialog";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				7F9D3681372E9E3EC2FE2A4BE7253AF1 /* Frameworks */,
+				1BE02B5ECF6EDD07657F395FFF2D88C1 /* Pods */,
+				1FBDD8418CE8BE4BB86701B2D2700018 /* Products */,
+				642E235CF11880CFF231F4D698251A0A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		EF560866D2792929CF9E42DB507B41B6 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				698C7792749D8F8A29699C4E3B5CA919 /* Accelerate.framework */,
+				4C277DDAFE68A195EDF8E21573219773 /* Foundation.framework */,
+				B6249D0DEDE09097FCB7FFE25FCBD3B7 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1565B47964E869EE280E9CDBEB6C6159 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				057D56AEC76E116E7DFDFDE80CDAE52F /* Pods-EtisalatRevamp-EtisalatRevampUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2790E51258C36427C4493081BB470A51 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D91418D43E5B5812964EC37E9F155CF1 /* ListPlaceholder-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2875D68DC36148A6D5779040BEC75AD3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0D47EDBF93C7BF89E54B5E4B73AD8C5 /* DGActivityIndicatorAnimation.h in Headers */,
+				B8C08E82E503F12848B6007A1CB6F2BA /* DGActivityIndicatorAnimationProtocol.h in Headers */,
+				688B66F55B013D46302003699CCABFB4 /* DGActivityIndicatorBallBeatAnimation.h in Headers */,
+				0EEBA2190B9DC44DE5737CED55177CA5 /* DGActivityIndicatorBallClipRotateAnimation.h in Headers */,
+				2FF82C82CA054F12CBE480EE4E633E5E /* DGActivityIndicatorBallClipRotateMultipleAnimation.h in Headers */,
+				D349B43385088699007F7DDA741A024A /* DGActivityIndicatorBallClipRotatePulseAnimation.h in Headers */,
+				240194F38631B1DCD7B6FA24FCDDF37A /* DGActivityIndicatorBallGridBeatAnimation.h in Headers */,
+				C87ECE19491E48BA766EEAFF5CC93D20 /* DGActivityIndicatorBallGridPulseAnimation.h in Headers */,
+				2B9E076D75419907EBA81695A91228EC /* DGActivityIndicatorBallPulseAnimation.h in Headers */,
+				D968BEDB90752524AC6E756AB2A6974E /* DGActivityIndicatorBallPulseSyncAnimation.h in Headers */,
+				9B11DEDC917D4C3DEDA8B6B5464785B2 /* DGActivityIndicatorBallRotateAnimation.h in Headers */,
+				ABC7697A6C738682696C44B2F27ACD76 /* DGActivityIndicatorBallScaleAnimation.h in Headers */,
+				4275AD9D2A19609FD52766414C64A3A3 /* DGActivityIndicatorBallScaleMultipleAnimation.h in Headers */,
+				CD29FE0FF7E84C6EE5D87C85FAD80B64 /* DGActivityIndicatorBallScaleRippleAnimation.h in Headers */,
+				3019C80AC99A7B7FE54F4D590F5A0D78 /* DGActivityIndicatorBallScaleRippleMultipleAnimation.h in Headers */,
+				B3F068CE45C3084A9B86A8AFFA7D67CC /* DGActivityIndicatorBallSpinFadeLoader.h in Headers */,
+				F4D21BE903EA105A27AB2B19D5B78BBE /* DGActivityIndicatorBallTrianglePathAnimation.h in Headers */,
+				13AA2E6CC6CB3E397F70FCF47D25FCA5 /* DGActivityIndicatorBallZigZagAnimation.h in Headers */,
+				E70A15587128277B6587E6B34FC4441F /* DGActivityIndicatorBallZigZagDeflectAnimation.h in Headers */,
+				1CFB7622BF2640A7D0FAA5B582658008 /* DGActivityIndicatorCookieTerminatorAnimation.h in Headers */,
+				0B7121CD03BA1B7337C3B361EBD84C91 /* DGActivityIndicatorDoubleBounceAnimation.h in Headers */,
+				49591FB5BF6C20C3A86DEC07960788FC /* DGActivityIndicatorFiveDotsAnimation.h in Headers */,
+				D1B18A94DA96CD3FC1DF41AF37B5C28F /* DGActivityIndicatorLineScaleAnimation.h in Headers */,
+				A8823309153D085D0B279E30BFBB9518 /* DGActivityIndicatorLineScalePartyAnimation.h in Headers */,
+				95F04915359C7F787932293DD54D137D /* DGActivityIndicatorLineScalePulseOutAnimation.h in Headers */,
+				3147C15E2C41335037D8565D41427EB1 /* DGActivityIndicatorLineScalePulseOutRapidAnimation.h in Headers */,
+				E5F50AB03EE88C8B98701C958AFADE52 /* DGActivityIndicatorNineDotsAnimation.h in Headers */,
+				653D8569D423D9E6BA1F35334CE9624B /* DGActivityIndicatorRotatingSandglassAnimation.h in Headers */,
+				D9CD7FB9338E0263A044AEF871134092 /* DGActivityIndicatorRotatingSquaresAnimation.h in Headers */,
+				F80258B7C905732466D60C60E97D7C8F /* DGActivityIndicatorRotatingTrigonAnimation.h in Headers */,
+				BA4A2C57A8E10CA2E55BFFB108CDEE05 /* DGActivityIndicatorThreeDotsAnimation.h in Headers */,
+				6029D1B75879B3475DB96B3A5AC6FF02 /* DGActivityIndicatorTriangleSkewSpinAnimation.h in Headers */,
+				66E5852987C24C25A8298CD271331A37 /* DGActivityIndicatorTriplePulseAnimation.h in Headers */,
+				56D2B4E07AC8A1888FE9012115A08056 /* DGActivityIndicatorTripleRingsAnimation.h in Headers */,
+				35E5A0598DC93DE3F6EC6210376E0F50 /* DGActivityIndicatorTwoDotsAnimation.h in Headers */,
+				F5777916FCD3B5439D1834846FAC94B4 /* DGActivityIndicatorView-umbrella.h in Headers */,
+				4E0E066DC506A0507731696355497656 /* DGActivityIndicatorView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F4F7A0904A5D8123BD520EBEFFF641F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F4976FB9B958DC4ADEF9FD818BF5665 /* Pods-EtisalatRevampTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87353A53FB8FA55F6215AC51654C8C0E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				928FFA6E7256231E743768EBC78E36A7 /* PopupDialog-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD91A0408709E5CE60C515237C69EEE0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18643D4F9BC327B1E5B9175F4260AC0E /* DynamicBlurView-umbrella.h in Headers */,
+				08452A247B58228DFFC77D7BA30DD668 /* DynamicBlurView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF0A6FD3584073D5D82D14C0EE8AFB90 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A141926D6C9625E46B0094A7C8EBCDE9 /* Pods-EtisalatRevamp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		197CB025C6981AE8927788C5B01B9D97 /* DGActivityIndicatorView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7977AC9630292DF637673237009187F5 /* Build configuration list for PBXNativeTarget "DGActivityIndicatorView" */;
+			buildPhases = (
+				2875D68DC36148A6D5779040BEC75AD3 /* Headers */,
+				4F203B4BE15A02ACAE1DA4E9E25AAFFC /* Sources */,
+				3B87E9390316A521FA244F6204F86B7E /* Frameworks */,
+				883A8C4FA01257A12D91E63EFDCC99A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DGActivityIndicatorView;
+			productName = DGActivityIndicatorView;
+			productReference = BC39C7DE03D918CDD6C21AEE6950197A /* DGActivityIndicatorView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		630EA3EB69B76A862344ECB3EC6F559D /* Pods-EtisalatRevampTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC91E30A05D99861F1C8D3D79DEEAE76 /* Build configuration list for PBXNativeTarget "Pods-EtisalatRevampTests" */;
+			buildPhases = (
+				3F4F7A0904A5D8123BD520EBEFFF641F /* Headers */,
+				71C53E4893BF9AD0140865C88FEDAC9C /* Sources */,
+				49E553628CA13921105092396934D5FD /* Frameworks */,
+				40F5FA2E99F271597B88FBA5E2930310 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E464C3DDFAA8E06D2B28E4D64231854 /* PBXTargetDependency */,
+			);
+			name = "Pods-EtisalatRevampTests";
+			productName = "Pods-EtisalatRevampTests";
+			productReference = 8C58881891B0F39550E2D33961FA5908 /* Pods_EtisalatRevampTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6E71929B582F8CD57B3DC1FD6560F047 /* PopupDialog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC7508D556E6C0879FE57E3E574C62AE /* Build configuration list for PBXNativeTarget "PopupDialog" */;
+			buildPhases = (
+				87353A53FB8FA55F6215AC51654C8C0E /* Headers */,
+				45888BA4605C36782FAFEAC2D00E6CD3 /* Sources */,
+				74F47434089ED97AF48B711E9FADBF5C /* Frameworks */,
+				51F44C6F0DFF3643706A346EC44D61E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A0F55816EC0A47F2B5F6C7CA549559A /* PBXTargetDependency */,
+			);
+			name = PopupDialog;
+			productName = PopupDialog;
+			productReference = 34FB964502259D0FF233CE71CFDD2A71 /* PopupDialog.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6EBCAF233C84E23C67FDDFAAC7C5E9BB /* Pods-EtisalatRevamp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1F791E307C5439A9AEDEEC7BBE94D6E /* Build configuration list for PBXNativeTarget "Pods-EtisalatRevamp" */;
+			buildPhases = (
+				FF0A6FD3584073D5D82D14C0EE8AFB90 /* Headers */,
+				0868DBA5A099DF2141D6C6793501AC1C /* Sources */,
+				6557E9BD0BBC30C2016EBE18EE9875E0 /* Frameworks */,
+				5697D8415BCD9BB32EAFB3922B75AF73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97792A3DB5F73278105B87171803702B /* PBXTargetDependency */,
+				17694644AE0AF939A7C820E0A4B95946 /* PBXTargetDependency */,
+				7F291B7EA110B7CF7E53B4E06D2047DB /* PBXTargetDependency */,
+				532BD8443EB63325B6CB1A16DC1E4FDD /* PBXTargetDependency */,
+			);
+			name = "Pods-EtisalatRevamp";
+			productName = "Pods-EtisalatRevamp";
+			productReference = A4411666A84BB3F2322293CC90C171C2 /* Pods_EtisalatRevamp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7D914FA2F03C860D5133BA2DB87C594A /* DynamicBlurView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B00E17D5B863CDCF74DE6FA3A6C1300F /* Build configuration list for PBXNativeTarget "DynamicBlurView" */;
+			buildPhases = (
+				BD91A0408709E5CE60C515237C69EEE0 /* Headers */,
+				64D4719150E9FEC3CDDBB82624177D73 /* Sources */,
+				E65CA3D384260DCB7B4E58EA234ABEA5 /* Frameworks */,
+				4991E03E196B947CF16368E88975E33C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DynamicBlurView;
+			productName = DynamicBlurView;
+			productReference = 86C4A2D817E6CFFF31BF75161625FD5D /* DynamicBlurView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		80BCFA3F5D104B7B04C1138045B83D74 /* Pods-EtisalatRevamp-EtisalatRevampUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8524F045C3999EC7C2377CFF619F964 /* Build configuration list for PBXNativeTarget "Pods-EtisalatRevamp-EtisalatRevampUITests" */;
+			buildPhases = (
+				1565B47964E869EE280E9CDBEB6C6159 /* Headers */,
+				086ACAA0F4C8590697FE1DE350480F38 /* Sources */,
+				CE7C1D04762EB447C5A0C148DA130DBC /* Frameworks */,
+				98EEE8BB3B7914A568B250B11B6BDA7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C7126945A832B5C12DEA2D584FCC62D /* PBXTargetDependency */,
+				306CC79DA7F5891463584130387A2205 /* PBXTargetDependency */,
+				2F32FF970C9B977F7D52DC39B7FB53DC /* PBXTargetDependency */,
+				575AB80B4BA4C58A0DA3AD7098BD6E77 /* PBXTargetDependency */,
+			);
+			name = "Pods-EtisalatRevamp-EtisalatRevampUITests";
+			productName = "Pods-EtisalatRevamp-EtisalatRevampUITests";
+			productReference = 7C566234C6A04D7B01584C0E1FB6E217 /* Pods_EtisalatRevamp_EtisalatRevampUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		881D2AF3078426440580FAD64637BBE0 /* ListPlaceholder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5780D0971D9B9DF54D7F6C2FDD30D185 /* Build configuration list for PBXNativeTarget "ListPlaceholder" */;
+			buildPhases = (
+				2790E51258C36427C4493081BB470A51 /* Headers */,
+				2CD516CDD8813F88E8C377C3CDBB0974 /* Sources */,
+				FE738E0C441F197B2DF409216F3B2C8D /* Frameworks */,
+				F6BEB1F683728B48AAB1FC43895AB8C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ListPlaceholder;
+			productName = ListPlaceholder;
+			productReference = 3D9F3C8963492DF9D8C22D7704478402 /* ListPlaceholder.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 1FBDD8418CE8BE4BB86701B2D2700018 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				197CB025C6981AE8927788C5B01B9D97 /* DGActivityIndicatorView */,
+				7D914FA2F03C860D5133BA2DB87C594A /* DynamicBlurView */,
+				881D2AF3078426440580FAD64637BBE0 /* ListPlaceholder */,
+				6EBCAF233C84E23C67FDDFAAC7C5E9BB /* Pods-EtisalatRevamp */,
+				80BCFA3F5D104B7B04C1138045B83D74 /* Pods-EtisalatRevamp-EtisalatRevampUITests */,
+				630EA3EB69B76A862344ECB3EC6F559D /* Pods-EtisalatRevampTests */,
+				6E71929B582F8CD57B3DC1FD6560F047 /* PopupDialog */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40F5FA2E99F271597B88FBA5E2930310 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4991E03E196B947CF16368E88975E33C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51F44C6F0DFF3643706A346EC44D61E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5697D8415BCD9BB32EAFB3922B75AF73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		883A8C4FA01257A12D91E63EFDCC99A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98EEE8BB3B7914A568B250B11B6BDA7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6BEB1F683728B48AAB1FC43895AB8C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0868DBA5A099DF2141D6C6793501AC1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47AF9DD7935C130E215A7E898FF58A51 /* Pods-EtisalatRevamp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		086ACAA0F4C8590697FE1DE350480F38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DEB8D6E5BBA828CFE8BCBD84C2F5486 /* Pods-EtisalatRevamp-EtisalatRevampUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CD516CDD8813F88E8C377C3CDBB0974 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DA68547EC36ED871BA6A20C8009B695 /* ListLoader.swift in Sources */,
+				CE226A73152557571E8AECD1CA842202 /* ListPlaceholder-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45888BA4605C36782FAFEAC2D00E6CD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC78D8A8141D8268D6382866CDF8F16A /* InteractiveTransition.swift in Sources */,
+				B2F489FB022F836FB35B3FEABF68903C /* PopupDialog+Keyboard.swift in Sources */,
+				73D0683E05F3565AE7175088B7CE6DC0 /* PopupDialog-dummy.m in Sources */,
+				5546955AFBE8D354D17380A294A25CE6 /* PopupDialog.swift in Sources */,
+				F82E29CC1BF7165FF77D9C4A387357A7 /* PopupDialogButton.swift in Sources */,
+				225555187BFD67F7F6DADEA6C73C567F /* PopupDialogContainerView.swift in Sources */,
+				A254857FE369E684CBE3B4F6F292239D /* PopupDialogDefaultButtons.swift in Sources */,
+				C9D87D93855954B4B23CDB647DEB7D0E /* PopupDialogDefaultView.swift in Sources */,
+				030FCBCF4FD8CD3905C39EDA654D29BD /* PopupDialogDefaultViewController.swift in Sources */,
+				A94100505467526DB734FAB115BF715C /* PopupDialogOverlayView.swift in Sources */,
+				D9F9E9336475EE7188F8F29DDE0A2EB1 /* PresentationController.swift in Sources */,
+				83B9E5412A63412A151E0092BF6AF7CA /* PresentationManager.swift in Sources */,
+				7A009CFEBD7D09FB5DA532F54EB9FBEF /* TransitionAnimations.swift in Sources */,
+				169D250E01A497F88370028FD950A37C /* TransitionAnimator.swift in Sources */,
+				0F82656B116745EE31DB985B8096CD60 /* UIImageView+Calculations.swift in Sources */,
+				37AFD441D3948E62ABBFFBDC662F6DB6 /* UIView+Animations.swift in Sources */,
+				D82DC5AAA5AA0E1A33EFE457C493D755 /* UIViewController+Visibility.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F203B4BE15A02ACAE1DA4E9E25AAFFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4D2992635042A07103F763D91E81589 /* DGActivityIndicatorAnimation.m in Sources */,
+				F0E93A84D62634FA3D611C7AFE872BD9 /* DGActivityIndicatorBallBeatAnimation.m in Sources */,
+				3AEFFABDD95DEF0D98A88A1D8D3FA25B /* DGActivityIndicatorBallClipRotateAnimation.m in Sources */,
+				C03BDBB15AB4E70408E91E8C650CADFB /* DGActivityIndicatorBallClipRotateMultipleAnimation.m in Sources */,
+				4F31EA23AD573BF6830C85C4D8F2E21E /* DGActivityIndicatorBallClipRotatePulseAnimation.m in Sources */,
+				C72D1CFE4FA824B591A77366C1B84BD5 /* DGActivityIndicatorBallGridBeatAnimation.m in Sources */,
+				C15FBDCB6CAA24181AADB8312C21A5BE /* DGActivityIndicatorBallGridPulseAnimation.m in Sources */,
+				EAAED2770F1D9F3FEA83506E8FB43644 /* DGActivityIndicatorBallPulseAnimation.m in Sources */,
+				080B54E5744B0174F1D3199A7F7124A1 /* DGActivityIndicatorBallPulseSyncAnimation.m in Sources */,
+				5D1085C9BEAB4541707E7FAD2D0059DD /* DGActivityIndicatorBallRotateAnimation.m in Sources */,
+				CB9197D9D664CDC4F60D59D3B7A1E541 /* DGActivityIndicatorBallScaleAnimation.m in Sources */,
+				91D665EAC5E88080B55620B121EAC82C /* DGActivityIndicatorBallScaleMultipleAnimation.m in Sources */,
+				609C4EA6870A149819AC2E10A69AFD2A /* DGActivityIndicatorBallScaleRippleAnimation.m in Sources */,
+				B3D790DF4667129E5588F8AB1D5EC800 /* DGActivityIndicatorBallScaleRippleMultipleAnimation.m in Sources */,
+				5468A39E95F3631B96983DA3D5FB9603 /* DGActivityIndicatorBallSpinFadeLoader.m in Sources */,
+				D989C090FFB035786FAE744457C3B961 /* DGActivityIndicatorBallTrianglePathAnimation.m in Sources */,
+				AAA12832361951F05DCCD7ACA0C0A005 /* DGActivityIndicatorBallZigZagAnimation.m in Sources */,
+				461D80FA3F96A861243CC8E288CA884B /* DGActivityIndicatorBallZigZagDeflectAnimation.m in Sources */,
+				77506AADC8250A7980009DE74388BFD9 /* DGActivityIndicatorCookieTerminatorAnimation.m in Sources */,
+				C99BB0472E3A5821823994AB14089121 /* DGActivityIndicatorDoubleBounceAnimation.m in Sources */,
+				71A8F9BB931FDF0AFDBDF93CA17FC2FA /* DGActivityIndicatorFiveDotsAnimation.m in Sources */,
+				15D5F66290B5BEFB45A25EC228AC26A5 /* DGActivityIndicatorLineScaleAnimation.m in Sources */,
+				39F4868AC5A6EDB3A2BB097788684AB5 /* DGActivityIndicatorLineScalePartyAnimation.m in Sources */,
+				99E6ECF10D7B19921282E6D8069881B7 /* DGActivityIndicatorLineScalePulseOutAnimation.m in Sources */,
+				8DC394EDB127AF42164E9FC800D86FE2 /* DGActivityIndicatorLineScalePulseOutRapidAnimation.m in Sources */,
+				50A244F623C093DB4267A3CE933F197D /* DGActivityIndicatorNineDotsAnimation.m in Sources */,
+				9D81B1D72E008BBFC7710ADD55F1A145 /* DGActivityIndicatorRotatingSandglassAnimation.m in Sources */,
+				F680E61660996DF305E3C3C5E205A800 /* DGActivityIndicatorRotatingSquaresAnimation.m in Sources */,
+				45CE25317FD66D65616B0D3E90D317A2 /* DGActivityIndicatorRotatingTrigonAnimation.m in Sources */,
+				491636048092DC641DD818A9B6AD8C1E /* DGActivityIndicatorThreeDotsAnimation.m in Sources */,
+				B1F7E8D48515A2A0C7C7D1D5B7B1D3A0 /* DGActivityIndicatorTriangleSkewSpinAnimation.m in Sources */,
+				629E39C3008F2C553E128B21AD0C682F /* DGActivityIndicatorTriplePulseAnimation.m in Sources */,
+				1FF4098260C3AB5CB23F5B421C16F5C4 /* DGActivityIndicatorTripleRingsAnimation.m in Sources */,
+				656A1C4D579DDCC2108DB676318AED37 /* DGActivityIndicatorTwoDotsAnimation.m in Sources */,
+				405DB302A501BC2D4164DAE68748B526 /* DGActivityIndicatorView-dummy.m in Sources */,
+				F055FDC94171AA684A938EE0B1FA31EF /* DGActivityIndicatorView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64D4719150E9FEC3CDDBB82624177D73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD2F32642C7F57A4EE71C41F183FEAC8 /* BlurLayer.swift in Sources */,
+				B52BCD660C0CA96651CA9AEAB5672D7B /* CaptureQuality.swift in Sources */,
+				81156AE99DEF656F29B13B8176CDC3B5 /* CGContext+CGImage.swift in Sources */,
+				1C14E028D177632DF0B363082E85E536 /* CGImage+Accelerate.swift in Sources */,
+				7EBE128BBA4CC34DBF4853B1E747C724 /* DynamicBlurView-dummy.m in Sources */,
+				42414824559FA605DF0EDCD382366DBD /* DynamicBlurView.swift in Sources */,
+				C08A03032406A24E285B680ACE7A9E73 /* TrackingMode.swift in Sources */,
+				E9157FAB5F209124A32CE9C3BB6B6027 /* UIImage+Blur.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71C53E4893BF9AD0140865C88FEDAC9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF90B1CB0F9BDC87799009ECA240526 /* Pods-EtisalatRevampTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17694644AE0AF939A7C820E0A4B95946 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DynamicBlurView;
+			target = 7D914FA2F03C860D5133BA2DB87C594A /* DynamicBlurView */;
+			targetProxy = E1F6F7D704AB79297EA9A72547E78C2A /* PBXContainerItemProxy */;
+		};
+		2F32FF970C9B977F7D52DC39B7FB53DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ListPlaceholder;
+			target = 881D2AF3078426440580FAD64637BBE0 /* ListPlaceholder */;
+			targetProxy = E5D812F90F4EAC9A9585098317463482 /* PBXContainerItemProxy */;
+		};
+		306CC79DA7F5891463584130387A2205 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DynamicBlurView;
+			target = 7D914FA2F03C860D5133BA2DB87C594A /* DynamicBlurView */;
+			targetProxy = F1EFDDC6B193B422DCC405113A9B43BF /* PBXContainerItemProxy */;
+		};
+		532BD8443EB63325B6CB1A16DC1E4FDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PopupDialog;
+			target = 6E71929B582F8CD57B3DC1FD6560F047 /* PopupDialog */;
+			targetProxy = 5F1FD0456C280A03C2C3D8BE6DC7CFE7 /* PBXContainerItemProxy */;
+		};
+		575AB80B4BA4C58A0DA3AD7098BD6E77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PopupDialog;
+			target = 6E71929B582F8CD57B3DC1FD6560F047 /* PopupDialog */;
+			targetProxy = 09F5715093B260C3B37CB46FF875FA19 /* PBXContainerItemProxy */;
+		};
+		6C7126945A832B5C12DEA2D584FCC62D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DGActivityIndicatorView;
+			target = 197CB025C6981AE8927788C5B01B9D97 /* DGActivityIndicatorView */;
+			targetProxy = 759E52A8F1749815E152F5006932DF95 /* PBXContainerItemProxy */;
+		};
+		6E464C3DDFAA8E06D2B28E4D64231854 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-EtisalatRevamp";
+			target = 6EBCAF233C84E23C67FDDFAAC7C5E9BB /* Pods-EtisalatRevamp */;
+			targetProxy = 063308316E0B6E7D3C58CBC9B60271CD /* PBXContainerItemProxy */;
+		};
+		7A0F55816EC0A47F2B5F6C7CA549559A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DynamicBlurView;
+			target = 7D914FA2F03C860D5133BA2DB87C594A /* DynamicBlurView */;
+			targetProxy = 2763FCA98104FEE93EB4E54D32DDF454 /* PBXContainerItemProxy */;
+		};
+		7F291B7EA110B7CF7E53B4E06D2047DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ListPlaceholder;
+			target = 881D2AF3078426440580FAD64637BBE0 /* ListPlaceholder */;
+			targetProxy = 777B250043550F2532010DD15C0C0485 /* PBXContainerItemProxy */;
+		};
+		97792A3DB5F73278105B87171803702B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DGActivityIndicatorView;
+			target = 197CB025C6981AE8927788C5B01B9D97 /* DGActivityIndicatorView */;
+			targetProxy = 5B8E7EB1AA41F4449DE531460AACA241 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		077A18426E8B48BD2A582FAD7DA8BB96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 828915805ABD88D75E481E01F2BABD8C /* Pods-EtisalatRevamp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EtisalatRevamp/Pods-EtisalatRevamp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EtisalatRevamp/Pods-EtisalatRevamp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1D18013CE11DC12D6522FBE7511CB274 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75EF54345076B4F0A44303F47FD12B4E /* DGActivityIndicatorView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DGActivityIndicatorView/DGActivityIndicatorView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DGActivityIndicatorView/DGActivityIndicatorView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DGActivityIndicatorView/DGActivityIndicatorView.modulemap";
+				PRODUCT_MODULE_NAME = DGActivityIndicatorView;
+				PRODUCT_NAME = DGActivityIndicatorView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2414ACFE80538E853B4D54A36E8FB5A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 078380E9CFC9BF68CA9447886ACF0EF7 /* Pods-EtisalatRevamp-EtisalatRevampUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EtisalatRevamp-EtisalatRevampUITests/Pods-EtisalatRevamp-EtisalatRevampUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EtisalatRevamp-EtisalatRevampUITests/Pods-EtisalatRevamp-EtisalatRevampUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2C466EBC2B1F0DF19E0CEE5D2E1AEEE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75EF54345076B4F0A44303F47FD12B4E /* DGActivityIndicatorView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DGActivityIndicatorView/DGActivityIndicatorView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DGActivityIndicatorView/DGActivityIndicatorView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DGActivityIndicatorView/DGActivityIndicatorView.modulemap";
+				PRODUCT_MODULE_NAME = DGActivityIndicatorView;
+				PRODUCT_NAME = DGActivityIndicatorView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		380ACDF74999A581CA148FFB67A73688 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09CFF89E2D0A41A7E38DB510AE782ECB /* ListPlaceholder.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ListPlaceholder/ListPlaceholder-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ListPlaceholder/ListPlaceholder-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ListPlaceholder/ListPlaceholder.modulemap";
+				PRODUCT_MODULE_NAME = ListPlaceholder;
+				PRODUCT_NAME = ListPlaceholder;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4EA6E6EA610C0116B87722F3BB7B093A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80DB836B5CB94D3C10BF13E631B6FF97 /* DynamicBlurView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DynamicBlurView/DynamicBlurView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DynamicBlurView/DynamicBlurView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DynamicBlurView/DynamicBlurView.modulemap";
+				PRODUCT_MODULE_NAME = DynamicBlurView;
+				PRODUCT_NAME = DynamicBlurView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6410F571BA8C1AEC6A19403F1B61B0B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		69350F2C6161B7C1E526936CE7F6C9C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4118E1DF57B653B1D6EA20BAD5F2C087 /* Pods-EtisalatRevampTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EtisalatRevampTests/Pods-EtisalatRevampTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EtisalatRevampTests/Pods-EtisalatRevampTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7389AB5120DF232BA56F0FBA9914BB21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D6B48AC4A26F44F6E998C6F89246C02 /* Pods-EtisalatRevamp-EtisalatRevampUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EtisalatRevamp-EtisalatRevampUITests/Pods-EtisalatRevamp-EtisalatRevampUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EtisalatRevamp-EtisalatRevampUITests/Pods-EtisalatRevamp-EtisalatRevampUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		82753B07D9922F1C66A8D8CC2743A8AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3B5AAB5A8151C008A85787BD1B43F19 /* Pods-EtisalatRevampTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EtisalatRevampTests/Pods-EtisalatRevampTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EtisalatRevampTests/Pods-EtisalatRevampTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A27713CB74E99AF202AADC23200A32F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A6D3481563301AEE2CDF25C874FDE857 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80DB836B5CB94D3C10BF13E631B6FF97 /* DynamicBlurView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DynamicBlurView/DynamicBlurView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DynamicBlurView/DynamicBlurView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DynamicBlurView/DynamicBlurView.modulemap";
+				PRODUCT_MODULE_NAME = DynamicBlurView;
+				PRODUCT_NAME = DynamicBlurView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C7AFF5FFE1DF0DF6E9C61B1F1AB27926 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09CFF89E2D0A41A7E38DB510AE782ECB /* ListPlaceholder.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ListPlaceholder/ListPlaceholder-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ListPlaceholder/ListPlaceholder-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ListPlaceholder/ListPlaceholder.modulemap";
+				PRODUCT_MODULE_NAME = ListPlaceholder;
+				PRODUCT_NAME = ListPlaceholder;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CE8E1A7B166BCB0C00B4FDD39680340C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBBEFC216D7642BA7687FB764B5EA43F /* PopupDialog.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PopupDialog/PopupDialog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PopupDialog/PopupDialog-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PopupDialog/PopupDialog.modulemap";
+				PRODUCT_MODULE_NAME = PopupDialog;
+				PRODUCT_NAME = PopupDialog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D824AB577D1FA22E4A7E8FC1A74C89EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBBEFC216D7642BA7687FB764B5EA43F /* PopupDialog.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PopupDialog/PopupDialog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PopupDialog/PopupDialog-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PopupDialog/PopupDialog.modulemap";
+				PRODUCT_MODULE_NAME = PopupDialog;
+				PRODUCT_NAME = PopupDialog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F2E3C454C4F61AB43711AD8C14F5B88C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D78751AB07A144084F68C4505C39C274 /* Pods-EtisalatRevamp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EtisalatRevamp/Pods-EtisalatRevamp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EtisalatRevamp/Pods-EtisalatRevamp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6410F571BA8C1AEC6A19403F1B61B0B5 /* Debug */,
+				A27713CB74E99AF202AADC23200A32F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5780D0971D9B9DF54D7F6C2FDD30D185 /* Build configuration list for PBXNativeTarget "ListPlaceholder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				380ACDF74999A581CA148FFB67A73688 /* Debug */,
+				C7AFF5FFE1DF0DF6E9C61B1F1AB27926 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7977AC9630292DF637673237009187F5 /* Build configuration list for PBXNativeTarget "DGActivityIndicatorView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D18013CE11DC12D6522FBE7511CB274 /* Debug */,
+				2C466EBC2B1F0DF19E0CEE5D2E1AEEE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1F791E307C5439A9AEDEEC7BBE94D6E /* Build configuration list for PBXNativeTarget "Pods-EtisalatRevamp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2E3C454C4F61AB43711AD8C14F5B88C /* Debug */,
+				077A18426E8B48BD2A582FAD7DA8BB96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B00E17D5B863CDCF74DE6FA3A6C1300F /* Build configuration list for PBXNativeTarget "DynamicBlurView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6D3481563301AEE2CDF25C874FDE857 /* Debug */,
+				4EA6E6EA610C0116B87722F3BB7B093A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC7508D556E6C0879FE57E3E574C62AE /* Build configuration list for PBXNativeTarget "PopupDialog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D824AB577D1FA22E4A7E8FC1A74C89EA /* Debug */,
+				CE8E1A7B166BCB0C00B4FDD39680340C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC91E30A05D99861F1C8D3D79DEEAE76 /* Build configuration list for PBXNativeTarget "Pods-EtisalatRevampTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82753B07D9922F1C66A8D8CC2743A8AC /* Debug */,
+				69350F2C6161B7C1E526936CE7F6C9C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8524F045C3999EC7C2377CFF619F964 /* Build configuration list for PBXNativeTarget "Pods-EtisalatRevamp-EtisalatRevampUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7389AB5120DF232BA56F0FBA9914BB21 /* Debug */,
+				2414ACFE80538E853B4D54A36E8FB5A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

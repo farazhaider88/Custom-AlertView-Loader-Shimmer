@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="EtisalatRevamp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="osB-Zf-dPV">
+                                <rect key="frame" x="103" y="144" width="208" height="618"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wSC-dr-KaG">
+                                        <rect key="frame" x="0.0" y="0.0" width="208" height="147"/>
+                                        <color key="backgroundColor" red="0.43529411759999997" green="0.44705882349999998" blue="0.45098039220000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Show Loader">
+                                            <color key="titleColor" red="0.95686274510000002" green="0.95686274510000002" blue="0.93725490199999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="showLoaderClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XT9-9R-y7Q"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dpv-fx-y7X">
+                                        <rect key="frame" x="0.0" y="157" width="208" height="147"/>
+                                        <color key="backgroundColor" red="1" green="0.072678257039999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="Show Alert With Ok">
+                                            <color key="titleColor" red="0.95686274510000002" green="0.95686274510000002" blue="0.93725490199999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="showAlertClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ffr-27-qiR"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tbS-WE-aO4">
+                                        <rect key="frame" x="0.0" y="314" width="208" height="147"/>
+                                        <color key="backgroundColor" red="0.035706426056338031" green="0.038594850352112679" blue="0.93725490199999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="Show Alert With Ok And Canel">
+                                            <color key="titleColor" red="0.95686274510000002" green="0.95686274510000002" blue="0.93725490199999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="showAlertClickedWithOkAndCancel:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KQ5-Y5-F2J"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ss9-wL-Orv">
+                                        <rect key="frame" x="0.0" y="471" width="208" height="147"/>
+                                        <color key="backgroundColor" red="0.035706426056338031" green="0.44784330985915494" blue="0.23387984154929578" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="Show Shimmer View">
+                                            <color key="titleColor" red="0.95686274510000002" green="0.95686274510000002" blue="0.93725490199999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="showShimmerView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ygu-Mb-jJU"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.4431372549" green="0.61960784310000006" blue="0.098039215690000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="osB-Zf-dPV" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="QO9-aG-SXP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="osB-Zf-dPV" secondAttribute="bottom" constant="100" id="a6t-w4-TB4"/>
+                            <constraint firstItem="osB-Zf-dPV" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="uoW-2p-5PQ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="shimmerView" destination="osB-Zf-dPV" id="9j4-Yy-66J"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-216" y="75"/>
+        </scene>
+    </scenes>
+</document>

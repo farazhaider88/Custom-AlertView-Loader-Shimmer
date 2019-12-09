@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-EtisalatRevamp/Pods-EtisalatRevamp-frameworks.sh
+${BUILT_PRODUCTS_DIR}/DGActivityIndicatorView/DGActivityIndicatorView.framework
+${BUILT_PRODUCTS_DIR}/DynamicBlurView/DynamicBlurView.framework
+${BUILT_PRODUCTS_DIR}/ListPlaceholder/ListPlaceholder.framework
+${BUILT_PRODUCTS_DIR}/PopupDialog/PopupDialog.framework

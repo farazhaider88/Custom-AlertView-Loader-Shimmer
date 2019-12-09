@@ -1,0 +1,6 @@
+framework module Pods_EtisalatRevampTests {
+  umbrella header "Pods-EtisalatRevampTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
